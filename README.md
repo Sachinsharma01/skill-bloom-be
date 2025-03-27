@@ -156,9 +156,3 @@ Response:
     "message": "Successfully signed up"
 }
 ```
-
----
-
-## 👨‍💻 Contributor
-
-- Pius Restiantoro - [GitHub](https://github.com/pius706975)
