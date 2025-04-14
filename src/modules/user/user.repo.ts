@@ -1,5 +1,5 @@
-import { DB } from '@/database';
-import { User } from '@/interfaces/user.interfaces';
+import { DB } from '../../database';
+import { User } from '../../interfaces/user.interfaces';
 
 export const repo = {
     getUserProfile: async (

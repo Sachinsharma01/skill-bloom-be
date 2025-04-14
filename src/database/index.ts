@@ -1,4 +1,4 @@
-import logger from '@/utils/logger';
+import logger from '../utils/logger';
 import Sequelize from 'sequelize';
 import userModel from './models/user.model';
 import {
@@ -9,7 +9,7 @@ import {
     DB_PORT,
     DB_USERNAME,
     NODE_ENV,
-} from '@/config';
+} from '../config';
 
 const sequelize = new Sequelize.Sequelize(
     DB_NAME as string,

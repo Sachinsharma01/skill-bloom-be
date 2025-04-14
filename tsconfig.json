@@ -6,12 +6,12 @@
         "rootDir": "./src",
         "baseUrl": "./src",
         "paths": {
-            "@/*": ["*"],
-            "@routes/*": ["routes/*"],
-            "@database/*": ["database/*"],
-            "@utils/*": ["utils/*"],
-            "@types/*": ["types/*"],
-            "@modules/*": ["modules/*"]
+            "*": ["*"],
+            "routes/*": ["routes/*"],  //! can use @ imports here
+            "database/*": ["database/*"],
+            "utils/*": ["utils/*"],
+            "types/*": ["types/*"],
+            "modules/*": ["modules/*"]
         },
         "esModuleInterop": true,
         "typeRoots": ["node_modules/@types"],
