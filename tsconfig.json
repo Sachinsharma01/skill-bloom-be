@@ -11,7 +11,7 @@
             "database/*": ["database/*"],
             "utils/*": ["utils/*"],
             "types/*": ["types/*"],
-            "modules/*": ["modules/*"]
+            "api/*": ["api/*"]
         },
         "esModuleInterop": true,
         "typeRoots": ["node_modules/@types"],

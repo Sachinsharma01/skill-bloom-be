@@ -9,6 +9,7 @@ export const {
     BASE_URL,
     JWT_ACCESS_TOKEN_SECRET,
     JWT_REFRESH_TOKEN_SECRET,
+    ADMIN_TOKEN
 } = process.env;
 
 export const {

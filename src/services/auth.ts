@@ -4,6 +4,7 @@ import { compareSync, hash } from 'bcrypt';
 import { generateJWT } from '../middlewares/jwt.service';
 import { JWT_ACCESS_TOKEN_SECRET } from '../config';
 import { CustomError } from '../utils/custom-error';
+import { generateReferralCode } from 'utils/generalUtils';
 
 class AuthService {
 
@@ -15,12 +16,14 @@ class AuthService {
         }
 
         const randomId = (Date.now() + Math.floor(Math.random() * 100)).toString(36);
-        const username = `${userData.email.split('@')[0]}-${randomId}`;
+        const username = userData.username ?? `${userData.email.split('@')[0]}-${randomId}`;
         const hashedPassword = await hash(userData.password, 10);
+        const referralCode = generateReferralCode();
         
         const newUserData = await userInteractor.createUser({
             ...userData,
             username,
+            referral_code: referralCode,
             password: hashedPassword,
         });
 
@@ -48,7 +51,10 @@ class AuthService {
             JWT_ACCESS_TOKEN_SECRET as string,
         );
 
-        return { user, accessToken };
+        const response = JSON.parse(JSON.stringify(user));  
+        delete response.password;
+
+        return { user: response, accessToken };
     }
 }
 

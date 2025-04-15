@@ -1,8 +1,9 @@
 import jwt from 'jsonwebtoken';
+import { CustomError } from 'utils/custom-error';
 
 export const generateJWT = async (payload: any, secretKey: string) => {
     try {
-        const token = `Bearer ${jwt.sign(payload, secretKey)}`;
+        const token = `${jwt.sign(payload, secretKey)}`;
         return token;
     } catch (error: any) {
         throw new Error(error.message);
@@ -12,6 +13,7 @@ export const generateJWT = async (payload: any, secretKey: string) => {
 export const verifyJWT = async (
     token: string,
     secretKey: string,
+    isAdmin: boolean = false
 ): Promise<jwt.JwtPayload> => {
     try {
         const cleanedToken = token.replace('Bearer ', '');

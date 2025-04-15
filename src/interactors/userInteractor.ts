@@ -8,6 +8,10 @@ const userInteractor = {
 
     findUserByEmail(email: string) {
         return DB.Users.findOne({ where: { email } });
+    },
+
+    findUserById(userId: number) {
+        return DB.Users.findOne({ where: { id: userId }, attributes: { exclude: ['password'] }})
     }
 }
 

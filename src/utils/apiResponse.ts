@@ -1,35 +1,20 @@
-import { CustomError } from "./custom-error";
-import { isNullOrUndefined } from "./generalUtils";
+import { Response } from 'express';
+import { isNullOrUndefined } from './generalUtils';
+import { CustomError } from './custom-error';
 
-class APIResponse {
-    constructor(payload: any, message: string | undefined, statusCode = 200) {
-        if (isNullOrUndefined(payload)) 
-            throw new CustomError('Response Payload is required')
-        return 
-    }
+const SuccessResponse = (
+    res: Response,
+    payload: any,
+    message: string | undefined,
+) => {
+    if (isNullOrUndefined(payload))
+        throw new CustomError('Response Payload is missing');
 
-    static success(payload: any, message: string | undefined, statusCode = 200) {
-        return new APIResponse(payload, message, statusCode);
-    }
+    res.status(200).json({
+        success: true,
+        data: payload,
+        message: message,
+    });
+};
 
-    static error(payload: any, message: string | undefined, statusCode = 500) {
-        return new APIResponse(payload, message, statusCode);
-    }
-
-    static notFound(payload: any, message: string | undefined, statusCode = 404) {
-        return new APIResponse(payload, message, statusCode);
-    }
-
-    static badRequest(payload: any, message: string | undefined, statusCode = 400) {
-        return new APIResponse(payload, message, statusCode);
-    }
-
-    static unauthorized(payload: any, message: string | undefined, statusCode = 401) {
-        return new APIResponse(payload, message, statusCode);
-    }
-
-    static forbidden(payload: any, message: string | undefined, statusCode = 403) {
-        return new APIResponse(payload, message, statusCode);
-    }
-    
-}
+export default SuccessResponse;

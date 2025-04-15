@@ -15,6 +15,8 @@ export class UserModel
     public name!: string;
     public username!: string;
     public password!: string;
+    public referral_code!: string;
+    public profile_image!: string;
     public created_at: string | undefined;
     public updated_at: string | undefined;
 
@@ -27,8 +29,8 @@ export default function (sequelize: Sequelize): typeof UserModel {
         {
             id: {
                 primaryKey: true,
-                type: DataTypes.UUIDV4,
-                defaultValue: DataTypes.UUIDV4,
+                type: DataTypes.INTEGER,
+                autoIncrement: true,
             },
             email: {
                 allowNull: false,
@@ -47,6 +49,14 @@ export default function (sequelize: Sequelize): typeof UserModel {
             password: {
                 allowNull: false,
                 type: DataTypes.STRING(255),
+            },
+            referral_code: {
+                type: DataTypes.STRING,
+                allowNull:false
+            },
+            profile_image: {
+                type: DataTypes.STRING,
+                allowNull: true,
             },
             created_at: DataTypes.DATE,
             updated_at: DataTypes.DATE,

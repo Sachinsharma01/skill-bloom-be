@@ -3,7 +3,7 @@ import { CustomError } from '../utils/custom-error';
 
 export const validateRequest = (schema: any) => {
     return (req: Request, res: Response, next: NextFunction) => {
-        const { error } = schema.validate(req.method === 'GET' ? req.query : req.body, {
+        const { error } = schema.validate(req.method === 'GET' ? {...req.query, ...req.params} : req.body, {
             abortEarly: false,
             stripUnknown: true,
         });

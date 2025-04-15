@@ -1,6 +1,6 @@
 import { CustomError } from '../utils/custom-error';
 import { verifyJWT } from './jwt.service';
-import { JWT_ACCESS_TOKEN_SECRET } from '../config';
+import { ADMIN_TOKEN, JWT_ACCESS_TOKEN_SECRET } from '../config';
 import { NextFunction, Request, Response } from 'express';
 
 const decodeToken = async (header: string | undefined) => {
@@ -34,3 +34,19 @@ export const authMiddleware = async (
         next(error);
     }
 };
+
+export const verifyAdminToken = async (
+    req: Request,
+    res: Response,
+    next: NextFunction,
+) => {
+    const authHeader = req.header('Authorization') || req.header('authorization');
+    if (!authHeader) {
+        throw new CustomError('Authorization header missing', 401);
+    }
+
+    const token = authHeader.replace('Bearer ', '');
+    const payload = await verifyJWT(token, ADMIN_TOKEN as string, true);
+    req.context = payload;
+    next();
+}
