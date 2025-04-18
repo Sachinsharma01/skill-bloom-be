@@ -8,4 +8,8 @@ export interface User {
     profile_image: string;
     created_at: string | undefined;
     updated_at: string | undefined;
+    profession: string | undefined;
+    country: string | undefined;
+    state: string | undefined;
+    mobile_number: string;
 }

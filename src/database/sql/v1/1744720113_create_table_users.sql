@@ -4,12 +4,18 @@ CREATE TABLE IF NOT EXISTS `users` (
     `name` VARCHAR(255) NOT NULL,
     `username` VARCHAR(255) NULL DEFAULT NULL,
     `password` VARCHAR(255) NOT NULL,
+    `mobile_number` VARCHAR(255) NOT NULL,
     `referral_code` VARCHAR(255) NOT NULL,
     `profile_image` VARCHAR(255) NULL DEFAULT NULL,
+    `profession` VARCHAR(255) NOT NULL DEFAULT 'student',
+    `country` VARCHAR(255) NOT NULL DEFAULT 'India',
+    `state` VARCHAR(255) NOT NULL,
+    `city` VARCHAR(255) NOT NULL,
     `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updated_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`),
     UNIQUE INDEX `email` (`email`),
     UNIQUE INDEX `username` (`username`),
-    UNIQUE INDEX `referral_code` (`referral_code`)
+    UNIQUE INDEX `referral_code` (`referral_code`),
+    UNIQUE INDEX `mobile_number` (`mobile_number`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

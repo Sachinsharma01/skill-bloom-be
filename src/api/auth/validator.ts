@@ -1,3 +1,4 @@
+import constants from 'config/constants';
 import Joi from 'joi';
 
 export const signUpSchema = Joi.object({
@@ -14,15 +15,26 @@ export const signUpSchema = Joi.object({
             'string.pattern.base': 'Password must contain at least one uppercase letter, one lowercase letter, and one number',
             'any.required': 'Password is required',
         }),
-    firstName: Joi.string().optional().messages({
-        'any.required': 'First name is required',
-    }),
-    lastName: Joi.string().optional().messages({
-        'any.required': 'Last name is required',
+    name: Joi.string().required().messages({
+        'any.required': 'Name is required',
     }),
     username: Joi.string().required().messages({
         "any.required": "Username is required"
-    })
+    }),
+    profession: Joi.string().valid(...Object.values(constants.Professions)).required().messages({
+        'any.required': 'Profession is required',
+        'any.only': 'Invalid profession',
+    }),
+    country: Joi.string().required().messages({
+        'any.required': 'Country is required',
+    }),
+    state: Joi.string().required().messages({
+        'any.required': 'State is required',
+    }),
+    mobile_number: Joi.string().length(10).required().messages({
+        'any.required': 'Mobile number is required',
+        'string.length': 'Mobile number must be 10 digits',
+    }),
 });
 
 export const signInSchema = Joi.object({

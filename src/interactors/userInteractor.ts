@@ -12,6 +12,10 @@ const userInteractor = {
 
     findUserById(userId: number) {
         return DB.Users.findOne({ where: { id: userId }, attributes: { exclude: ['password'] }})
+    },
+
+    countUserByUsername(username: string) {
+        return DB.Users.count({ where: {username} })
     }
 }
 
