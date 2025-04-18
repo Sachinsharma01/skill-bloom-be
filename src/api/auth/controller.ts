@@ -13,7 +13,7 @@ class AuthController {
                 data: response.user,
             });
         } catch (error) {
-            logger.error(error)
+            logger.error("Error in signUp controller", error)
             next(error);
         }
     }
