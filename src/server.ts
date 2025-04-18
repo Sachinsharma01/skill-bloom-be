@@ -60,9 +60,6 @@ DB.sequelize
             logger.info(`Server is running on http://localhost:${port}`);
         });
 
-        appServer.get('/health', (req, res) => {
-            res.status(200).json({ message: 'Server is running' });
-        });
     })
     .catch((error: any) => {
         logger.error('Unable to connect to the database:', error);
