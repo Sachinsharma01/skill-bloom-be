@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 import { authService } from '../../services/auth';
+import logger from 'utils/logger';
 
 class AuthController {
     async signUp(req: Request, res: Response, next: NextFunction): Promise<void> {
@@ -12,6 +13,7 @@ class AuthController {
                 data: response.user,
             });
         } catch (error) {
+            logger.error(error)
             next(error);
         }
     }
