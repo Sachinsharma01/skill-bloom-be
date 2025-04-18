@@ -3,7 +3,6 @@ import { config } from 'dotenv';
 const envFile = `.env.${process.env.NODE_ENV || 'development'}`;
 config({ path: envFile });
 
-console.log("ENV File", envFile);
 
 export const {
     PORT,

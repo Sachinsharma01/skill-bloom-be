@@ -11,8 +11,6 @@ import {
     NODE_ENV,
 } from '../config';
 
-console.log("DB Configs")
-console.log(DB_NAME, DB_USERNAME, DB_PASSWORD, DB_HOST, DB_PORT, DB_DIALECT);
 
 const sequelize = new Sequelize.Sequelize(
     DB_NAME as string,
