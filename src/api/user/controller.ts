@@ -23,6 +23,21 @@ class UserController {
             next(error);
         }
     }
+
+    async updateProfileDetails(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try {
+            const userId: number = parseInt(req.params.userId);
+            const profileDetails: unknown = await userService.updateProfileDetails(userId, req.body);
+
+            return SuccessResponse(
+                res,
+                profileDetails,
+                'Profile details updated successfully',
+            );
+        } catch (error) {
+            next(error);
+        }
+    }
 }
 
 export const userController = new UserController();

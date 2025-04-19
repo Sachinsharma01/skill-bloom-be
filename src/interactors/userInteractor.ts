@@ -16,6 +16,10 @@ const userInteractor = {
 
     countUserByUsername(username: string) {
         return DB.Users.count({ where: {username} })
+    },
+
+    updateUser(userId: number, profileDetails: Partial<User>) {
+        return DB.Users.update(profileDetails, { where: { id: userId } });
     }
 }
 
