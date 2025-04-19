@@ -1,0 +1,11 @@
+CREATE TABLE `statistics` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `active_users` INT NOT NULL DEFAULT 0,
+    `total_resources` INT NOT NULL DEFAULT 0,
+    `total_categories` INT NOT NULL DEFAULT 0,
+    `total_states` INT NOT NULL DEFAULT 0,
+    `total_countries` INT NOT NULL DEFAULT 0,
+    `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+);

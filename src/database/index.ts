@@ -10,6 +10,7 @@ import {
     DB_USERNAME,
     NODE_ENV,
 } from '../config';
+import statisticsModel from './models/statistics.model';
 
 
 const sequelize = new Sequelize.Sequelize(
@@ -43,6 +44,7 @@ sequelize.authenticate();
 
 export const DB = {
     Users: userModel(sequelize),
+    Statistics: statisticsModel(sequelize),
     sequelize, // connection instance (RAW queries)
     Sequelize, // library
 };

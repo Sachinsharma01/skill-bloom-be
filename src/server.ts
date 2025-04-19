@@ -13,6 +13,8 @@ const port = PORT;
 const corsOptions = {
     origin: '*',
     optionsSuccessStatus: 200,
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 };
 
 appServer.use((req, res, next) => {
