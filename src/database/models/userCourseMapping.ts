@@ -7,8 +7,9 @@ export class UserCourseMappingModel extends Model<UserCourseMapping, UserCourseM
     id!: number;
     user_id!: number;
     course_id!: number;
-    created_at!: Date;
-    updated_at!: Date;
+    is_complete!: boolean;
+    progress!: number;
+    certificate_url!: string;
 
     static associate: (models: any) => void;
 }
@@ -27,14 +28,6 @@ export default function (sequelize: Sequelize) {
             },
             course_id: {
                 type: DataTypes.INTEGER,
-                allowNull: false,
-            },
-            created_at: {
-                type: DataTypes.DATE,
-                allowNull: false,
-            },
-            updated_at: {
-                type: DataTypes.DATE,
                 allowNull: false,
             },
             is_complete: {
