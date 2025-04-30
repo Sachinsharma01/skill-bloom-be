@@ -1,6 +1,6 @@
 import logger from '../utils/logger';
 import Sequelize from 'sequelize';
-import userModel from './models/user.model';
+import userModel from './models/user';
 import {
     DB_DIALECT,
     DB_HOST,
@@ -10,9 +10,9 @@ import {
     DB_USERNAME,
     NODE_ENV,
 } from '../config';
-import statisticsModel from './models/statistics.model';
-import featuredModel from './models/featured.model';
-import courseModel from './models/course.model';
+import statisticsModel from './models/statistics';
+import featuredModel from './models/featured';
+import courseModel from './models/course';
 
 const sequelize = new Sequelize.Sequelize(
     DB_NAME as string,

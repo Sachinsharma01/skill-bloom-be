@@ -1,5 +1,5 @@
 import { DB } from 'database';
-import { FeaturedModel } from 'database/models/featured.model';
+import { FeaturedModel } from 'database/models/featured';
 
 export class FeaturedInteractor {
     async getFeaturedCourses() {
