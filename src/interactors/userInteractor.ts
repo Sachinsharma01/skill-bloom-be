@@ -1,5 +1,5 @@
 import { DB } from "../database";
-import { User } from "../interfaces/user.interfaces";
+import { User } from "../interfaces/user";
 
 const userInteractor = {
     createUser(userData: User) {
@@ -20,6 +20,10 @@ const userInteractor = {
 
     updateUser(userId: number, profileDetails: Partial<User>) {
         return DB.Users.update(profileDetails, { where: { id: userId } });
+    },
+
+    getEnrolledCourses(userId: number) {
+        return DB.UserCourseMapping.findAll({ where: { user_id: userId }, include: [{ model: DB.Courses, as: 'course' }] });
     }
 }
 

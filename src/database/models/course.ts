@@ -1,4 +1,4 @@
-import { Course } from "interfaces/course.interface";
+import { Course } from "interfaces/course";
 import { DataTypes, Model, Optional, Sequelize } from "sequelize";
 
 export type CourseCreationAttributes = Optional<Course, 'id'>;

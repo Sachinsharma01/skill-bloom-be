@@ -4,7 +4,7 @@ import {
 } from '../../../src/modules/auth/auth.service';
 import { CustomError } from '../../../src/utils/custom-error';
 import repo from '../../../src/modules/auth/auth.repo';
-import { User } from '../../../src/interfaces/user.interfaces';
+import { User } from '../../../src/interfaces/user';
 import { DB } from '../../../src/database';
 import { hash, compareSync } from 'bcrypt';
 import { validateSignUp, validateSignIn } from '../../../src/modules/auth/auth.validator';

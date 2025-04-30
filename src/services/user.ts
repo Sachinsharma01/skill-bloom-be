@@ -1,6 +1,6 @@
 import userInteractor from 'interactors/userInteractor';
 import { CustomError } from 'utils/custom-error';
-import { User } from 'interfaces/user.interfaces';
+import { User } from 'interfaces/user';
 class UserService {
     async getProfileDetails(userId: number) {
         const user = await userInteractor.findUserById(userId);
@@ -16,6 +16,11 @@ class UserService {
             profileDetails as Partial<User>,
         );
         return updatedUser;
+    }
+
+    async getEnrolledCourses(userId: number) {
+        const enrolledCourses = await userInteractor.getEnrolledCourses(userId);
+        return enrolledCourses;
     }
 }
 

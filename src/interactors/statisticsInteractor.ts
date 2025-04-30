@@ -1,5 +1,5 @@
 import { DB } from "database";
-import { Statistics } from "interfaces/statistics.interface";
+import { Statistics } from "interfaces/statistics";
 
 const statisticsInteractor = {
     async updateStatistics(id: number, statisticsData: Statistics) {

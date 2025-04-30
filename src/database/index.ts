@@ -13,6 +13,7 @@ import {
 import statisticsModel from './models/statistics';
 import featuredModel from './models/featured';
 import courseModel from './models/course';
+import userCourseMappingModel from './models/userCourseMapping';
 
 const sequelize = new Sequelize.Sequelize(
     DB_NAME as string,
@@ -48,9 +49,11 @@ export const DB = {
     Statistics: statisticsModel(sequelize),
     Featured: featuredModel(sequelize),
     Courses: courseModel(sequelize),
+    UserCourseMapping: userCourseMappingModel(sequelize),
     sequelize, // connection instance (RAW queries)
     Sequelize, // library
 };
 
 // Set up associations
 DB.Featured.associate(DB);
+DB.UserCourseMapping.associate(DB);

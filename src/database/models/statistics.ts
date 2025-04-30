@@ -1,5 +1,5 @@
 import { Model, Optional, Sequelize, DataTypes } from "sequelize";
-import { Statistics } from "interfaces/statistics.interface";
+import { Statistics } from "interfaces/statistics";
 
 export type StatisticsCreationAttributes = Optional<Statistics, 'id'>;
 

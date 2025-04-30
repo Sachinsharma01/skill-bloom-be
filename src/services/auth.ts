@@ -1,4 +1,4 @@
-import { User } from '../interfaces/user.interfaces';
+import { User } from '../interfaces/user';
 import userInteractor from 'interactors/userInteractor';
 import { compareSync, hash } from 'bcrypt';
 import { generateJWT } from '../middlewares/jwt.service';

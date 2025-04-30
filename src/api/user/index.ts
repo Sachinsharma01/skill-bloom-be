@@ -21,5 +21,11 @@ userRouter.put(
     validateUser,
     userController.updateProfileDetails,
 );
+userRouter.get(
+    '/:userId/enrolled_courses',
+    authMiddleware,
+    validateUser,
+    userController.getEnrolledCourses,
+);
 
 export default userRouter;

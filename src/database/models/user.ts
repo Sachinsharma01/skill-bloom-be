@@ -1,5 +1,5 @@
 import constants from 'config/constants';
-import { User } from '../../interfaces/user.interfaces';
+import { User } from '../../interfaces/user';
 import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
 
 export type UserCreationAttributes = Optional<

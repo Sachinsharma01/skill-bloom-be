@@ -38,6 +38,21 @@ class UserController {
             next(error);
         }
     }
+
+    async getEnrolledCourses(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try {
+            const userId: number = parseInt(req.params.userId);
+            const enrolledCourses: unknown = await userService.getEnrolledCourses(userId);
+
+            return SuccessResponse(
+                res,
+                enrolledCourses,
+                'Enrolled courses fetched successfully',
+            );
+        } catch (error) {
+            next(error);
+        }
+    }
 }
 
 export const userController = new UserController();

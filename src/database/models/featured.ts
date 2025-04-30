@@ -1,4 +1,4 @@
-import { Featured } from 'interfaces/featured.interface';
+import { Featured } from 'interfaces/featured';
 import { DataTypes, Model, Optional, Sequelize } from 'sequelize';
 
 export type FeaturedCreationAttributes = Optional<Featured, 'id'>;
