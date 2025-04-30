@@ -11,7 +11,8 @@ import {
     NODE_ENV,
 } from '../config';
 import statisticsModel from './models/statistics.model';
-
+import featuredModel from './models/featured.model';
+import courseModel from './models/course.model';
 
 const sequelize = new Sequelize.Sequelize(
     DB_NAME as string,
@@ -45,6 +46,11 @@ sequelize.authenticate();
 export const DB = {
     Users: userModel(sequelize),
     Statistics: statisticsModel(sequelize),
+    Featured: featuredModel(sequelize),
+    Courses: courseModel(sequelize),
     sequelize, // connection instance (RAW queries)
     Sequelize, // library
 };
+
+// Set up associations
+DB.Featured.associate(DB);

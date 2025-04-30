@@ -11,6 +11,24 @@ class PublicController {
             next(error);
         }
     }
+
+    async getFeaturedCourses(req: Request, res: Response, next: NextFunction) {
+        try {
+            const courses = await PublicService.getFeaturedCourses();
+            return SuccessResponse(res, courses, 'Featured courses fetched successfully');
+        } catch (error) {
+            next(error);
+        }
+    }
+
+    async getCourses(req: Request, res: Response, next: NextFunction) {
+        try {
+            const courses = await PublicService.getCourses();
+            return SuccessResponse(res, courses, 'Courses fetched successfully');
+        } catch (error) {
+            next(error);
+        }
+    }
 }
 
 export default new PublicController();
