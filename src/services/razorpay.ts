@@ -13,8 +13,13 @@ class RazorpayService {
     }
 
     async createRazorpayOrder(payload: any) {
-        logger.debug(`Creating razorpay order: ${JSON.stringify(payload)}`);
-        return this.client.orders.create(payload);
+        try {
+            logger.debug(`Creating razorpay order: ${JSON.stringify(payload)}`);
+            return this.client.orders.create(payload);
+        } catch (error) {
+            logger.error(`Error creating razorpay order: ${error}`);
+            throw error;
+        }
     }
 }
 
