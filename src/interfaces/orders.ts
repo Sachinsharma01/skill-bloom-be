@@ -6,4 +6,5 @@ export interface Orders {
     amount: number;
     payment_id: string;
     razorpay_id: string;
+    created_by: string;
 }

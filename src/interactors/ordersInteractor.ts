@@ -15,6 +15,10 @@ class OrdersInteractor {
     async updateOrder(orderId: number, order: any) {
         return DB.Orders.update(order, { where: { id: orderId } });
     }
+
+    async getOrderByTempId(tempId: string) {
+        return DB.Orders.findOne({ where: { created_by: tempId } });
+    }
 }
 
 export default new OrdersInteractor();

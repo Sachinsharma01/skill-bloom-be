@@ -45,7 +45,11 @@ export default function (sequelize: Sequelize): typeof OrdersModel {
             razorpay_id: {
                 type: DataTypes.STRING,
                 allowNull: true,
-            }
+            },
+            created_by: {
+                type: DataTypes.STRING,
+                allowNull: true,
+            },
         },
         {
             tableName: 'orders',

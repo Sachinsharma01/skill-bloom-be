@@ -32,23 +32,29 @@ class OrdersService {
     async createOrder(userId: number, order: Orders) {
         const user = await userInteractor.findUserById(userId);
         const payment_id = uuidv4();
+        const tempUUID = uuidv4();
         const orderPayload = {
             user_id: userId,
             course_id: order.course_id,
             status: constants.ORDER_STATUS.PENDING,
             amount: order.amount * 100,
             payment_id: payment_id,
+            created_by: tempUUID,
         };
         logger.debug(`Order payload: ${JSON.stringify(orderPayload)}`);
         const orderCreated = await ordersInteractor.createOrder(orderPayload);
         logger.debug(`Order created: ${JSON.stringify(orderCreated)}`);
+
+        const createdOrder: any = await ordersInteractor.getOrderByTempId(
+            tempUUID,
+        );
 
         const razorpayOrderPayload = this.#formatOrderPayload({
             userId: userId,
             courseId: order.course_id,
             userName: user?.name,
             mobile: user?.mobile_number,
-            orderId: orderCreated.id,
+            orderId: createdOrder.id,
             totalAmount: order.amount,
         });
 
