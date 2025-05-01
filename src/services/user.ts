@@ -1,6 +1,7 @@
 import userInteractor from 'interactors/userInteractor';
 import { CustomError } from 'utils/custom-error';
 import { User } from 'interfaces/user';
+import userCourseMapppingInteractor from 'interactors/userCourseMapppingInteractor';
 class UserService {
     async getProfileDetails(userId: number) {
         const user = await userInteractor.findUserById(userId);
@@ -19,7 +20,7 @@ class UserService {
     }
 
     async getEnrolledCourses(userId: number) {
-        const enrolledCourses = await userInteractor.getEnrolledCourses(userId);
+        const enrolledCourses = await userCourseMapppingInteractor.getEnrolledCourses(userId);
         return enrolledCourses;
     }
 }

@@ -16,6 +16,11 @@ class PublicService {
         const courses = await courseInteractor.getCourses();
         return courses;
     }
+
+    async getCourseById(id: string) {
+        const course = await courseInteractor.getCourseById(id);
+        return course;
+    }
 }
 
 

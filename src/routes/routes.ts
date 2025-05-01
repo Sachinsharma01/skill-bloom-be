@@ -3,6 +3,7 @@ import authRouter from '../api/auth';
 import express from 'express';
 import validateRouter from '../routes/validate';
 import publicRouter from '../api/public/routes';
+import orderRouter from '../api/orders';
 
 const router = express.Router();
 
@@ -10,6 +11,7 @@ router.use('/auth', authRouter);
 router.use('/user', userRouter)
 router.use('/validate', validateRouter);
 router.use('/public', publicRouter);
+router.use('/orders', orderRouter)
 
 
 router.get('/health', (req, res) => {

@@ -20,4 +20,6 @@ export const {
     DB_NAME,
     DB_HOST,
     DB_DIALECT,
+    RAZORPAY_KEY_ID,
+    RAZORPAY_KEY_SECRET,
 } = process.env;

@@ -1,4 +1,4 @@
-import constants from 'config/constants';
+import constants from 'utils/constants';
 import { User } from '../../interfaces/user';
 import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
 
@@ -88,6 +88,7 @@ export default function (sequelize: Sequelize): typeof UserModel {
             createdAt: 'created_at',
             updatedAt: 'updated_at',
             timestamps: true,
+            deletedAt: 'deleted_at',
         },
     );
 

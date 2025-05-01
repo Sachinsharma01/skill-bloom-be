@@ -3,5 +3,11 @@ export default Object.freeze({
         STUDENT: 'student',
         WORKING_PROFESSIONAL: 'working_professional',
         OTHER: 'other',
-    }
+    },
+    ORDER_STATUS: {
+        PENDING: 'pending',
+        SUCCESS: 'success',
+        CANCELLED: 'cancelled',
+        FAILED: 'failed',
+    },
 })

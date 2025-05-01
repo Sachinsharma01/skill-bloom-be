@@ -22,9 +22,6 @@ const userInteractor = {
         return DB.Users.update(profileDetails, { where: { id: userId } });
     },
 
-    getEnrolledCourses(userId: number) {
-        return DB.UserCourseMapping.findAll({ where: { user_id: userId }, include: [{ model: DB.Courses, as: 'course' }] });
-    }
 }
 
 

@@ -1,4 +1,4 @@
-CREATE TABLE `statistics` (
+CREATE TABLE IF NOT EXISTS `statistics` (
     `id` INT NOT NULL AUTO_INCREMENT,
     `active_users` INT NOT NULL DEFAULT 0,
     `total_resources` INT NOT NULL DEFAULT 0,

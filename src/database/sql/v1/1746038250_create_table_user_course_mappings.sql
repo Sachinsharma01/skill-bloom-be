@@ -1,4 +1,4 @@
-CREATE TABLE user_course_mappings (
+CREATE TABLE IF NOT EXISTS `user_course_mappings` (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `user_id` INT NOT NULL,
     `course_id` INT NOT NULL,
@@ -7,6 +7,7 @@ CREATE TABLE user_course_mappings (
     `certificate_url` VARCHAR(255) NULL,
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `deleted_at` TIMESTAMP DEFAULT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (course_id) REFERENCES courses(id),
     INDEX (user_id),

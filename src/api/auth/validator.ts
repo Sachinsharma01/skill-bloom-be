@@ -1,4 +1,4 @@
-import constants from 'config/constants';
+import constants from 'utils/constants';
 import Joi from 'joi';
 
 export const signUpSchema = Joi.object({

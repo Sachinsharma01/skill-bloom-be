@@ -51,6 +51,7 @@ export default function (sequelize: Sequelize) {
             createdAt: 'created_at',
             updatedAt: 'updated_at',
             timestamps: true,
+            deletedAt: 'deleted_at',
         },
     );
 

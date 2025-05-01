@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS `courses` (
     `is_resource` BOOLEAN NOT NULL DEFAULT FALSE,
     `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updated_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `deleted_at` DATETIME DEFAULT NULL,
     PRIMARY KEY (`id`),
     INDEX `idx_courses_name` (`name`),
     INDEX `idx_courses_category` (`category`),

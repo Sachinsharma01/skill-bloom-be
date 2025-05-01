@@ -29,6 +29,15 @@ class PublicController {
             next(error);
         }
     }
+
+    async getCourseById(req: Request, res: Response, next: NextFunction) {
+        try {
+            const course = await PublicService.getCourseById(req.params.id);
+            return SuccessResponse(res, course, 'Course fetched successfully');
+        } catch (error) {
+            next(error);
+        }
+    }
 }
 
 export default new PublicController();
