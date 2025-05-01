@@ -8,4 +8,7 @@ export const createOrderSchema = Joi.object({
     amount: Joi.number().required().messages({
         'any.required': 'Amount is required',
     }),
+    user_id: Joi.string().required().messages({
+        'any.required': 'User ID is required',
+    }),
 })

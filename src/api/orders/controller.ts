@@ -14,7 +14,7 @@ class OrdersController {
     }
     async createOrder(req: IRequest, res: Response, next: NextFunction) {
         try {
-            const userId: number = parseInt(req.user?.id as string);
+            const userId: number = parseInt(req.body.user_id as string);
             const order = await OrdersService.createOrder(userId, req.body);
             return SuccessResponse(res, order, 'Order created successfully');
         } catch (error) {

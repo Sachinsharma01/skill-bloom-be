@@ -17,10 +17,10 @@ router.get(
 router.post(
     '/',
     authMiddleware,
-    validateUser,
     validateRequest(createOrderSchema),
     controller.createOrder,
 );
+
 
 
 export default router;
