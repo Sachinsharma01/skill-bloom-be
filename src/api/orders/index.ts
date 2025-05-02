@@ -6,7 +6,6 @@ import { validateRequest } from 'middlewares/validate-request';
 import { createOrderSchema, updateOrderSchema } from './validator';
 const router: express.Router = express.Router();
 
-
 router.get(
     '/:userId',
     authMiddleware,
@@ -27,7 +26,5 @@ router.put(
     validateRequest(updateOrderSchema), 
     controller.updateOrder,
 );
-
-
 
 export default router;

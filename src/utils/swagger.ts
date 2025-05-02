@@ -6,9 +6,9 @@ const options = {
     swaggerDefinition: {
         openapi: '3.0.0',
         info: {
-            title: 'My API',
+            title: 'Skill Bloom API',
             version: '1.0.0',
-            description: 'API documentation for my application',
+            description: 'API documentation for Skill Bloom application',
         },
         servers: [
             {
