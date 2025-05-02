@@ -10,7 +10,7 @@ import RazorpayService from './razorpay';
 class OrdersService {
     #formatOrderPayload(payload: any) {
         return {
-            amount: payload.totalAmount * 100,
+            amount: (payload.totalAmount * 100).toString(),
             currency: 'INR',
             receipt: payload.orderId,
             partial_payment: false,
@@ -54,13 +54,14 @@ class OrdersService {
             courseId: order.course_id,
             userName: user?.name,
             mobile: user?.mobile_number,
-            orderId: createdOrder.id,
+            orderId: createdOrder.id.toString(),
             totalAmount: order.amount,
         });
 
         const razorpayOrder = await RazorpayService.createRazorpayOrder(
             razorpayOrderPayload,
         );
+        logger.debug(`Razorpay order: ${JSON.stringify(razorpayOrder)}`);
         return { ...orderCreated, razorpay_order: razorpayOrder };
     }
 
