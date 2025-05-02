@@ -62,7 +62,7 @@ class OrdersService {
             razorpayOrderPayload,
         );
         logger.debug(`Razorpay order: ${JSON.stringify(razorpayOrder)}`);
-        return { ...createdOrder, razorpay_order: razorpayOrder };
+        return { ...createdOrder.toJSON(), razorpay_order: razorpayOrder };
     }
 
     async updateOrder(orderId: number, paymentId: string, razorpayId: string) {
