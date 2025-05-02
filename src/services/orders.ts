@@ -62,10 +62,10 @@ class OrdersService {
             razorpayOrderPayload,
         );
         logger.debug(`Razorpay order: ${JSON.stringify(razorpayOrder)}`);
-        return { ...orderCreated, razorpay_order: razorpayOrder };
+        return { ...createdOrder, razorpay_order: razorpayOrder };
     }
 
-    async updateOrder(orderId: number, razorpayId: string, paymentId: string) {
+    async updateOrder(orderId: number, paymentId: string, razorpayId: string) {
         const orderUpdatePayload = {
             razorpay_id: razorpayId,
             payment_id: paymentId,

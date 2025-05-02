@@ -21,6 +21,17 @@ class OrdersController {
             next(error);
         }
     }
+    async updateOrder(req: IRequest, res: Response, next: NextFunction) {
+        try {
+            const orderId: number = parseInt(req.params.orderId as string);
+            const paymentId: string = req.body.payment_id as string;
+            const razorpayId: string = req.body.razorpay_id as string;
+            const order = await OrdersService.updateOrder(orderId, paymentId, razorpayId);
+            return SuccessResponse(res, order, 'Order updated successfully');
+        } catch (error) {
+            next(error);
+        }
+    }
 }
 
 export default new OrdersController();

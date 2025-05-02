@@ -12,3 +12,12 @@ export const createOrderSchema = Joi.object({
         'any.required': 'User ID is required',
     }),
 })
+
+export const updateOrderSchema = Joi.object({
+    payment_id: Joi.string().required().messages({
+        'any.required': 'Payment ID is required',
+    }),
+    razorpay_id: Joi.string().required().messages({
+        'any.required': 'Razorpay ID is required',
+    }),
+})

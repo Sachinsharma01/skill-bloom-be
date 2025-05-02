@@ -3,7 +3,7 @@ import controller from './controller';
 import { authMiddleware } from 'middlewares/auth';
 import { validateUser } from 'middlewares';
 import { validateRequest } from 'middlewares/validate-request';
-import { createOrderSchema } from './validator';
+import { createOrderSchema, updateOrderSchema } from './validator';
 const router: express.Router = express.Router();
 
 
@@ -19,6 +19,13 @@ router.post(
     authMiddleware,
     validateRequest(createOrderSchema),
     controller.createOrder,
+);
+
+router.put(
+    '/:orderId',
+    authMiddleware,
+    validateRequest(updateOrderSchema), 
+    controller.updateOrder,
 );
 
 
