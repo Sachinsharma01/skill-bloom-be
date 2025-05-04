@@ -11,4 +11,10 @@
    return result;
  }
 
- export { isNullOrUndefined, generateReferralCode }
+ const swapKeyValues = (obj: any) => {
+    return Object.fromEntries(
+        Object.entries(obj).map(([key, value]) => [value, key]),
+    );
+};
+
+export { isNullOrUndefined, generateReferralCode, swapKeyValues };

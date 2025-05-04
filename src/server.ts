@@ -6,7 +6,7 @@ import { DB } from './database/index';
 import { PORT } from './config';
 import { errorHandler } from './utils/error-handler';
 import { swaggerSpec, swaggerUi } from './utils/swagger';
-
+import scrapper from './utils/scrapper';
 const appServer = express();
 const port = PORT;
 
@@ -61,7 +61,8 @@ DB.sequelize
         appServer.listen(port, () => {
             logger.info(`Server is running on http://localhost:${port}`);
         });
-
+        //? run scrapper to get the data from the csv sheets and load it to resource_data.json file and insert it to db using seeders
+        // scrapper();
     })
     .catch((error: any) => {
         logger.error('Unable to connect to the database:', error);

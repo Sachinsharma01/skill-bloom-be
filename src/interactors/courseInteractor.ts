@@ -5,7 +5,7 @@ class CourseInteractor {
         return DB.Courses.findAll();
     }
 
-    async getCourseById(id: string) {
+    async getCourseById(id: string | number) {
         return DB.Courses.findByPk(id);
     }
 }

@@ -1,0 +1,2085 @@
+[
+  {
+    "course_id": 5,
+    "company_name": "Garuda Aerospace",
+    "careers_url": "https://www.garudaaerospace.com",
+    "linkedin_url": "https://www.linkedin.com/company/garuda-aerospace-private-limited"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Agnikul",
+    "careers_url": "https://www.agnikul.in/#/",
+    "linkedin_url": "https://www.linkedin.com/company/agnikul-cosmos"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Disprz",
+    "careers_url": "https://disprz.ai/",
+    "linkedin_url": "https://in.linkedin.com/company/disprz"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Mylapay",
+    "careers_url": "https://mylapay.com/",
+    "linkedin_url": "https://www.linkedin.com/company/mylapay/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "CaratLane",
+    "careers_url": "https://www.caratlane.com/",
+    "linkedin_url": "https://www.linkedin.com/company/caratlane-trading-pvt--ltd"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Pando",
+    "careers_url": "https://pando.ai",
+    "linkedin_url": "https://www.linkedin.com/company/pandocorp"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Medway Hospitals",
+    "careers_url": "https://medwayhospitals.com",
+    "linkedin_url": "https://www.linkedin.com/company/medway-hospitals/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Wiz Freight",
+    "careers_url": "https://wizfreight.com",
+    "linkedin_url": "https://www.linkedin.com/company/wizfreight"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Northern Arc",
+    "careers_url": "https://www.northernarc.com/",
+    "linkedin_url": "https://www.linkedin.com/company/northern-arc-capital"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Equitas Small Finance Bank",
+    "careers_url": "https://www.equitasbank.com",
+    "linkedin_url": "https://www.linkedin.com/company/equitas-small-finance-bank"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Kaar Technologies",
+    "careers_url": "https://www.kaartech.com/",
+    "linkedin_url": "https://www.linkedin.com/company/kaar-technologies-pvt-ltd-"
+  },
+  {
+    "course_id": 5,
+    "company_name": "GrowXCD Finance",
+    "careers_url": "https://growxcd.com/",
+    "linkedin_url": "https://www.linkedin.com/company/growxcd-finance/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Sweet Karam Coffee",
+    "careers_url": "https://www.sweetkaramcoffee.in/",
+    "linkedin_url": "https://www.linkedin.com/company/sweetkaramcoffee"
+  },
+  {
+    "course_id": 5,
+    "company_name": "TVS Credit Services",
+    "careers_url": "https://www.tvscredit.com",
+    "linkedin_url": "https://www.linkedin.com/company/tvs-credit-services-ltd-/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "GalaxEye",
+    "careers_url": "https://galaxeye.space",
+    "linkedin_url": "https://www.linkedin.com/company/galaxeye/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "CIPACA",
+    "careers_url": "https://www.cipaca.com/",
+    "linkedin_url": "https://www.linkedin.com/company/cipaca/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "AuditCue",
+    "careers_url": "https://www.auditcue.com",
+    "linkedin_url": "https://www.linkedin.com/company/auditcue"
+  },
+  {
+    "course_id": 5,
+    "company_name": "MRF",
+    "careers_url": "https://www.mrftyres.com/",
+    "linkedin_url": "https://www.linkedin.com/company/mrf/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Mindgrove",
+    "careers_url": "https://www.mindgrovetech.in/",
+    "linkedin_url": "https://www.linkedin.com/company/mindgrovetech/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Incore Semiconductors",
+    "careers_url": "https://incoresemi.com",
+    "linkedin_url": "https://www.linkedin.com/company/incoresemi"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Oro",
+    "careers_url": "https://orocorp.in",
+    "linkedin_url": "https://linkedin.com/company/orocorp"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Raptee Energy",
+    "careers_url": "https://rapteehv.com/",
+    "linkedin_url": "https://www.linkedin.com/company/rapteeenergy/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Updater Services",
+    "careers_url": "https://www.uds.in/",
+    "linkedin_url": "https://www.linkedin.com/company/uds-facility-services-pvt.ltd"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Basilic Fly Studio",
+    "careers_url": "https://www.basilicflystudio.com",
+    "linkedin_url": "https://www.linkedin.com/company/basilic-fly-studio/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Dr. Agarwal's",
+    "careers_url": "https://www.dragarwal.com/",
+    "linkedin_url": "https://www.linkedin.com/company/dr-agarwals-eye-hospital/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Finsire",
+    "careers_url": "https://finsire.com/",
+    "linkedin_url": "https://www.linkedin.com/company/finsire/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Dvara KGFS",
+    "careers_url": "https://www.dvarakgfs.com",
+    "linkedin_url": "https://www.linkedin.com/company/dvarakgfs/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "XYMA Analytics Pvt Ltd",
+    "careers_url": "https://xyma.in",
+    "linkedin_url": "https://www.linkedin.com/company/xyma-analytics/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Exoticamp",
+    "careers_url": "https://www.exoticamp.com/",
+    "linkedin_url": "https://www.linkedin.com/company/exoticamp/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Aham Housing Finance",
+    "careers_url": "http://www.ahamhfc.com",
+    "linkedin_url": "https://www.linkedin.com/company/ahamhfc"
+  },
+  {
+    "course_id": 5,
+    "company_name": "PickMyAd",
+    "careers_url": "https://pickmyad.com/",
+    "linkedin_url": "https://www.linkedin.com/company/pickmyad"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Hectar Global",
+    "careers_url": "https://www.hectar.in/",
+    "linkedin_url": "https://www.linkedin.com/company/hectar-global/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Varashakti Housing Finance",
+    "careers_url": "https://varashaktihousing.co.in/",
+    "linkedin_url": "https://www.linkedin.com/company/varashakti-housing-finance-private-limited/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "ThinkMetal",
+    "careers_url": "https://thinkmetal.in/",
+    "linkedin_url": "https://www.linkedin.com/company/thinkmetal/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "NDR Warehousing",
+    "careers_url": "https://www.ndrwarehousing.com",
+    "linkedin_url": "https://www.linkedin.com/company/ndr-warehousing-pvt-ltd"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Tata Consultancy Services (TCS)",
+    "industry": "IT Services",
+    "location": "Mumbai, Maharashtra",
+    "linkedin_url": "https://www.linkedin.com/company/tata-consultancy-services"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Accenture",
+    "industry": "IT Services",
+    "location": "Bengaluru, Karnataka",
+    "linkedin_url": "https://www.linkedin.com/company/accenture"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Cognizant",
+    "industry": "IT Services",
+    "location": "Teaneck, New Jersey, USA",
+    "linkedin_url": "https://www.linkedin.com/company/cognizant"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Macquarie Group",
+    "industry": "Financial Services",
+    "location": "Sydney, Australia",
+    "linkedin_url": "https://www.linkedin.com/company/macquariegroup/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Morgan Stanley",
+    "industry": "Financial Services",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/morgan-stanley"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Deloitte",
+    "industry": "Professional Services",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/deloitte"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Endress+Hauser Group",
+    "industry": "Industrial Equipment",
+    "location": "Reinach, Switzerland",
+    "linkedin_url": "https://www.linkedin.com/company/endress-hauser-group"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Bristol Myers Squibb",
+    "industry": "Pharmaceuticals",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/bristol-myers-squibb"
+  },
+  {
+    "course_id": 3,
+    "company_name": "JPMorgan Chase & Co.",
+    "industry": "Financial Services",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/jpmorgan-chase"
+  },
+  {
+    "course_id": 3,
+    "company_name": "PepsiCo",
+    "industry": "Food & Beverages",
+    "location": "Purchase, New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/pepsico"
+  },
+  {
+    "course_id": 3,
+    "company_name": "DP World",
+    "industry": "Logistics",
+    "location": "Dubai, UAE",
+    "linkedin_url": "https://www.linkedin.com/company/dp-world"
+  },
+  {
+    "course_id": 3,
+    "company_name": "HCL Technologies",
+    "industry": "IT Services",
+    "location": "Noida, Uttar Pradesh",
+    "linkedin_url": "https://www.linkedin.com/company/hcl-technologies"
+  },
+  {
+    "course_id": 3,
+    "company_name": "EY (Ernst & Young)",
+    "industry": "Professional Services",
+    "location": "London, UK",
+    "linkedin_url": "https://www.linkedin.com/company/ernstandyoung"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Schneider Electric",
+    "industry": "Energy Management",
+    "location": "Rueil-Malmaison, France",
+    "linkedin_url": "https://www.linkedin.com/company/schneider-electric"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Amazon",
+    "industry": "E-commerce",
+    "location": "Seattle, Washington, USA",
+    "linkedin_url": "https://www.linkedin.com/company/amazon"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Continental",
+    "industry": "Automotive",
+    "location": "Hanover, Germany",
+    "linkedin_url": "https://www.linkedin.com/company/continental"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Mastercard",
+    "industry": "Financial Services",
+    "location": "Purchase, New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/mastercard"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Intel Corporation",
+    "industry": "Semiconductors",
+    "location": "Santa Clara, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/intel-corporation"
+  },
+  {
+    "course_id": 3,
+    "company_name": "ICICI Bank",
+    "industry": "Banking",
+    "location": "Mumbai, Maharashtra",
+    "linkedin_url": "https://www.linkedin.com/company/icici-bank"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Michelin",
+    "industry": "Automotive",
+    "location": "Clermont-Ferrand, France",
+    "linkedin_url": "https://www.linkedin.com/company/michelin"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Fortive",
+    "industry": "Industrial Technology",
+    "location": "Everett, Washington, USA",
+    "linkedin_url": "https://www.linkedin.com/company/fortive"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Wells Fargo",
+    "industry": "Financial Services",
+    "location": "San Francisco, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/wellsfargo/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Infosys",
+    "industry": "IT Services",
+    "location": "Bengaluru, Karnataka",
+    "linkedin_url": "https://www.linkedin.com/company/infosys"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Wipro",
+    "industry": "IT Services",
+    "location": "Bengaluru, Karnataka",
+    "linkedin_url": "https://www.linkedin.com/company/wipro"
+  },
+  {
+    "course_id": 3,
+    "company_name": "IBM",
+    "industry": "IT Services",
+    "location": "Armonk, New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/ibm"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Microsoft",
+    "industry": "IT Services",
+    "location": "Redmond, Washington, USA",
+    "linkedin_url": "https://www.linkedin.com/company/microsoft"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Google",
+    "industry": "IT Services",
+    "location": "Mountain View, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/google"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Oracle",
+    "industry": "IT Services",
+    "location": "Redwood Shores, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/oracle"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Capgemini",
+    "industry": "IT Services",
+    "location": "Paris, France",
+    "linkedin_url": "https://www.linkedin.com/company/capgemini"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Tech Mahindra",
+    "industry": "IT Services",
+    "location": "Pune, Maharashtra",
+    "linkedin_url": "https://www.linkedin.com/company/tech-mahindra"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Larsen & Toubro Infotech Mindtree",
+    "industry": "IT Services",
+    "location": "Mumbai, Maharashtra",
+    "linkedin_url": "https://www.linkedin.com/company/ltimindtree/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Mphasis",
+    "industry": "IT Services",
+    "location": "Bengaluru, Karnataka",
+    "linkedin_url": "https://www.linkedin.com/company/mphasis"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Genpact",
+    "industry": "IT Services",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/genpact"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Standard Chartered Bank",
+    "industry": "Banking",
+    "location": "London, UK",
+    "linkedin_url": "https://www.linkedin.com/company/standardchartered/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "HSBC",
+    "industry": "Banking",
+    "location": "London, UK",
+    "linkedin_url": "https://www.linkedin.com/company/hsbc"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Citibank",
+    "industry": "Banking",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/showcase/citi-global-wealth-at-work/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Barclays",
+    "industry": "Banking",
+    "location": "London, UK",
+    "linkedin_url": "https://www.linkedin.com/company/barclays-bank/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Frankfurt, Germany",
+    "linkedin_url": "https://www.linkedin.com/company/deutsche-bank"
+  },
+  {
+    "course_id": 3,
+    "company_name": "BNP Paribas",
+    "industry": "Banking",
+    "location": "Paris, France",
+    "linkedin_url": "https://www.linkedin.com/company/bnp-paribas"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Royal Bank of Scotland",
+    "industry": "Banking",
+    "location": "Edinburgh, UK",
+    "linkedin_url": "https://www.linkedin.com/company/royal-bank-of-scotland"
+  },
+  {
+    "course_id": 3,
+    "company_name": "UBS",
+    "industry": "Banking",
+    "location": "Zurich, Switzerland",
+    "linkedin_url": "https://www.linkedin.com/company/ubs"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Goldman Sachs",
+    "industry": "Financial Services",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/goldman-sachs"
+  },
+  {
+    "course_id": 3,
+    "company_name": "American Express",
+    "industry": "Financial Services",
+    "location": "New York, USA",
+    "linkedin_url": "https://www.linkedin.com/company/american-express"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Visa Inc.",
+    "industry": "Financial Services",
+    "location": "Foster City, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/visa"
+  },
+  {
+    "course_id": 3,
+    "company_name": "PayPal",
+    "industry": "Financial Services",
+    "location": "San Jose, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/paypal"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Facebook",
+    "industry": "IT Services",
+    "location": "Menlo Park, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/facebook"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Twitter",
+    "industry": "IT Services",
+    "location": "San Francisco, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/twitter"
+  },
+  {
+    "course_id": 3,
+    "company_name": "LinkedIn",
+    "industry": "IT Services",
+    "location": "Sunnyvale, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/linkedin"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Adobe",
+    "industry": "IT Services",
+    "location": "San Jose, California, USA",
+    "linkedin_url": "https://www.linkedin.com/company/adobe"
+  },
+  {
+    "course_id": 3,
+    "company_name": "SAP",
+    "industry": "IT Services",
+    "location": "Walldorf, Germany",
+    "linkedin_url": "https://www.linkedin.com/company/sap"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Siemens",
+    "industry": "Industrial Manufacturing",
+    "location": "Munich, Germany",
+    "linkedin_url": "https://www.linkedin.com/company/siemens"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Bosch",
+    "industry": "Industrial Manufacturing",
+    "location": "Gerlingen, Germany",
+    "linkedin_url": "https://www.linkedin.com/company/bosch"
+  },
+  {
+    "course_id": 3,
+    "company_name": "General Electric (GE)",
+    "industry": "Industrial Manufacturing",
+    "location": "Boston, Massachusetts, USA",
+    "linkedin_url": "https://www.linkedin.com/company/ge"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Honeywell",
+    "industry": "Industrial Manufacturing",
+    "location": "Charlotte, North Carolina, USA",
+    "linkedin_url": "https://www.linkedin.com/company/honeywell"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Philips",
+    "industry": "Healthcare",
+    "location": "Amsterdam, Netherlands",
+    "linkedin_url": "https://www.linkedin.com/company/philips"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Johnson & Johnson",
+    "industry": "Healthcare",
+    "location": "New Brunswick, New Jersey, USA",
+    "linkedin_url": "https://www.linkedin.com/company/johnson-and-johnson"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Procter & Gamble (P&G)",
+    "industry": "Consumer Goods",
+    "location": "Cincinnati, Ohio, USA",
+    "linkedin_url": "https://www.linkedin.com/company/procter-and-gamble"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Unilever",
+    "industry": "Consumer Goods",
+    "location": "London, UK",
+    "linkedin_url": "https://www.linkedin.com/company/unilever"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Nestlé",
+    "industry": "Food & Beverages",
+    "location": "Vevey, Switzerland",
+    "linkedin_url": "https://www.linkedin.com/company/nestle-s-a-"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Coca-Cola",
+    "industry": "Food & Beverages",
+    "location": "Atlanta, Georgia, USA",
+    "linkedin_url": "https://www.linkedin.com/company/the-coca-cola-company"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Hindustan Unilever Limited (HUL)",
+    "industry": "Consumer Goods",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/unilever/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "ITC Limited",
+    "industry": "Conglomerate",
+    "location": "Kolkata, West Bengal, India",
+    "linkedin_url": "https://www.linkedin.com/company/itc-limited"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Tata Steel",
+    "industry": "Steel Manufacturing",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/tatasteelltd/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Tata Motors",
+    "industry": "Automotive",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/tata-motors"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Mahindra & Mahindra",
+    "industry": "Automotive",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/mahindragroup/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Maruti Suzuki",
+    "industry": "Automotive",
+    "location": "New Delhi, India",
+    "linkedin_url": "https://www.linkedin.com/company/maruti-udyog-limited/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Hero MotoCorp",
+    "industry": "Automotive",
+    "location": "New Delhi, India",
+    "linkedin_url": "https://www.linkedin.com/company/heromotocorp/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Bajaj Auto",
+    "industry": "Automotive",
+    "location": "Pune, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/bajaj-auto-ltd"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Ashok Leyland",
+    "industry": "Automotive",
+    "location": "Chennai, Tamil Nadu, India",
+    "linkedin_url": "https://www.linkedin.com/company/ashok-leyland"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Reliance Industries",
+    "industry": "Conglomerate",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/reliance/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Aditya Birla Group",
+    "industry": "Conglomerate",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/aditya-birla-group"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Vedanta Resources",
+    "industry": "Mining & Metals",
+    "location": "London, UK",
+    "linkedin_url": "https://www.linkedin.com/company/vedantaresources/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Hindalco Industries",
+    "industry": "Mining & Metals",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/hindalcoindustrieslimited/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "JSW Steel",
+    "industry": "Steel Manufacturing",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/jswgroup/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Bharti Airtel",
+    "industry": "Telecommunications",
+    "location": "New Delhi, India",
+    "linkedin_url": "https://www.linkedin.com/company/airtel/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Vodafone Idea",
+    "industry": "Telecommunications",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/vodafone-idea-limited"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Tata Communications",
+    "industry": "Telecommunications",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/tata-communication/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Oil and Natural Gas Corporation (ONGC)",
+    "industry": "Oil & Gas",
+    "location": "New Delhi, India",
+    "linkedin_url": "https://www.linkedin.com/company/oilandnaturalgascorporation/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Bharat Petroleum Corporation Limited (BPCL)",
+    "industry": "Oil & Gas",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/bharat-petroleum-corporation-limited"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Hindustan Petroleum Corporation Limited (HPCL)",
+    "industry": "Oil & Gas",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/hpcl/"
+  },
+  {
+    "course_id": 3,
+    "company_name": "GAIL (India) Limited",
+    "industry": "Oil & Gas",
+    "location": "New Delhi, India",
+    "linkedin_url": "https://www.linkedin.com/company/gail-india-limited"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Tata Power",
+    "industry": "Power Generation",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin_url": "https://www.linkedin.com/company/tata-power"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Adobe Systems India Pvt Ltd",
+    "location": "Adobe Towers\nI-1A, City Centre, Sector : 25A, NOIDA-201301",
+    "careers_url": "https://www.adobe.com/in/",
+    "linkedin_url": "https://www.linkedin.com/company/adobe/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "AgreeYa Solutions (India) Pvt Ltd",
+    "location": "B-38 C/2, Sector 57\nNOIDA 201 301",
+    "careers_url": "www.agreeya.com",
+    "linkedin_url": "https://www.linkedin.com/company/alletec/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "All e Technologies (P) Ltd",
+    "location": "A-67, Sect 57, Noida-201301",
+    "careers_url": "www.alletec.com",
+    "linkedin_url": "https://www.linkedin.com/company/agreeya-solutions/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Birlasoft Limited",
+    "location": "Software Technology Park, 2nd Floor Ganga Shopping Complex\nSector29, Noida 201303",
+    "careers_url": "www.birlasoft.net",
+    "linkedin_url": "https://www.linkedin.com/company/birlasoft/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Cadence Design Systems India Pvt. Ltd",
+    "location": "Plot 57A, B & C, NSEZ,\nNoida Special Economic Zone, Noida, 201305",
+    "careers_url": "https://www.cadence.com/en_US/home.html",
+    "linkedin_url": "https://www.linkedin.com/company/cadence/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "ClearTrail Technologies Pvt Ltd",
+    "location": "D - 27, Sector 59\nNoida, Uttar Pradesh - 201307",
+    "careers_url": "https://www.clear-trail.com/",
+    "linkedin_url": "https://www.linkedin.com/company/cleartrail-technologies/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Corbus (India) Private Limited",
+    "location": "SDF # C-5, B-9, C-7\nSoftware Technology Park\nNoida Export Processing Zone\nNoida-201305, UP",
+    "careers_url": "http://www.corbus.com/",
+    "linkedin_url": "https://www.linkedin.com/company/corbus-llc/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "exl Service.com (India) Pvt Ltd",
+    "location": "A-48, Sector 58, Noida",
+    "careers_url": "https://www.exlservice.com/",
+    "linkedin_url": "https://www.linkedin.com/company/exl-service/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Granada Services Ltd. (iEnergizer Inc.)",
+    "location": "A-37 Sector 60\nNoida, 201301",
+    "careers_url": "https://www.ienergizer.com/",
+    "linkedin_url": "https://www.linkedin.com/company/ienergizer/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "GrapeCity India Pvt Ltd",
+    "location": "A-15, Sector 62,\nNoida, UP 201307",
+    "careers_url": "https://www.grapecity.in/",
+    "linkedin_url": "https://www.linkedin.com/company/grapecityindiapvtltd/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Hurix Systems Pvt. Ltd.",
+    "location": "C-56/10, 2nd Floor\nSector 62, Noida\nU.P.201301",
+    "careers_url": "https://www.hurix.com/",
+    "linkedin_url": "https://www.linkedin.com/company/hurix-digital/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Impetus Infotech (I) Pvt. Ltd.",
+    "location": "D - 27, Sector 59\nNoida (Near New Delhi),\nUttar Pradesh - 201307,",
+    "careers_url": "https://www.impetus.com/",
+    "linkedin_url": "https://www.linkedin.com/company/impetus/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "India Insure Risk Management Services Pvt Ltd",
+    "location": "A-70, Sector-2, Noida NCR,\nDist Gautam Budh Nagar,\nUP - 201301",
+    "careers_url": "https://indiainsure.iirmholdings.in/",
+    "linkedin_url": "https://www.linkedin.com/company/indiainsure/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "GlobalLogic ",
+    "location": "B-34/1, Sector 59,\nNoida 201301 (U.P)",
+    "careers_url": "https://www.globallogic.com/",
+    "linkedin_url": "https://www.linkedin.com/company/globallogic/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Infogain India Pvt. Ltd.",
+    "location": "A-16, Sector 60, Noida\nGautam Budh Nagar. 201301",
+    "careers_url": "https://www.infogain.com/",
+    "linkedin_url": "https://www.linkedin.com/company/infogain/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Interra Information Technologies (India) Pvt Ltd",
+    "location": "E-14, Noida Special Economic Zone\nNoida, UP 201305",
+    "careers_url": "https://www.interrait.com/",
+    "linkedin_url": "https://www.linkedin.com/company/interrait/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "JK Technosoft Ltd",
+    "location": "F-3, Sector-III\nNoida 201301",
+    "careers_url": "https://jktech.com/",
+    "linkedin_url": "https://www.linkedin.com/company/jk-tech/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Liqvid eLearning Services Pvt Ltd",
+    "location": "F3, Sector 8,\nNOIDA, U.P. 201 301",
+    "careers_url": "https://liqvid.com/",
+    "linkedin_url": "https://www.linkedin.com/company/liqvidlearning"
+  },
+  {
+    "course_id": 1,
+    "company_name": "NetEdge Computing Global Services Pvt Ltd",
+    "location": "A - 14, Sector - 7\nNoida 201 301",
+    "careers_url": "https://netedgecomputing.com/",
+    "linkedin_url": "https://www.linkedin.com/company/netedge-computing-solutions-pvt.-ltd./"
+  },
+  {
+    "course_id": 1,
+    "company_name": "NextBrick Solutions Limited",
+    "location": "G-11, Sector 11,\nNOIDA 201 301, UP",
+    "careers_url": "https://nextbrick.com/",
+    "linkedin_url": "https://www.linkedin.com/company/nextbrick-inc"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Nucleus Software Exports Ltd",
+    "location": "A-39, Sector-62,\nNoida - 201307\nUttar Pradesh",
+    "careers_url": "https://www.nucleussoftware.com/",
+    "linkedin_url": "https://www.linkedin.com/company/nucleus-software-exports-limited/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Progressive Infotech Pvt Ltd",
+    "location": "NOIDA (Suburban Delhi)\nC-161, Phase-II Extension\nNoida-201305",
+    "careers_url": "https://www.progressive.in/",
+    "linkedin_url": "https://www.linkedin.com/company/progressiveinfotech/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "Pyramid IT Consulting Pvt Ltd",
+    "location": "D-26, Sector 63\nNOIDA - 201 301 (U.P.)",
+    "careers_url": "https://pyramidci.com/",
+    "linkedin_url": "https://www.linkedin.com/company/pyramid-consulting/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "R Systems International Limited",
+    "location": "C-40, Sector 59\nNoida 201307 (UP)",
+    "careers_url": "https://www.rsystems.com/",
+    "linkedin_url": "https://www.linkedin.com/company/r-systems/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "RMSI Private Limited",
+    "location": "A-7 Sector 16\nNOIDA 201 301",
+    "careers_url": "https://www.rmsi.com/",
+    "linkedin_url": "https://www.linkedin.com/company/rmsi/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "two44 software solutions",
+    "industry": "Software Development",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.two44software.com/",
+    "linkedin_url": "https://www.linkedin.com/company/two44-software-solutions/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "eKincare",
+    "industry": "Health Tech",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.ekincare.com/",
+    "linkedin_url": "https://in.linkedin.com/company/ekincare"
+  },
+  {
+    "course_id": 4,
+    "company_name": "SignalX AI",
+    "industry": "AI Due Diligence",
+    "location": "Hyderabad, India",
+    "careers_url": "https://signalx.ai/",
+    "linkedin_url": "https://www.linkedin.com/company/signalx-ai/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "QiTech.in",
+    "industry": "Software Development",
+    "location": "Hyderabad, India",
+    "careers_url": "https://qitech.in/",
+    "linkedin_url": "https://www.linkedin.com/company/qitechnologies/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Trice Community",
+    "industry": "Community App",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.tricecommunity.com/",
+    "linkedin_url": "https://www.linkedin.com/company/trice-community-technologies/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "PORTL TECHNOLOGIES",
+    "industry": "Health & Fitness Tech",
+    "location": "Hyderabad, India",
+    "careers_url": "https://portl.co/",
+    "linkedin_url": "https://www.linkedin.com/company/portl-technologies-inc/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "actlogica solutions private limited",
+    "industry": "Software",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.actlogica.com/",
+    "linkedin_url": "https://www.linkedin.com/company/actlogica/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Adiabatic Technologies Private Limited",
+    "industry": "Energy Storage",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.adiabatic.co.in/",
+    "linkedin_url": "https://www.linkedin.com/company/adiabatic-technologies-pvt-ltd/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Hesa Enterprises Pvt Ltd",
+    "industry": "Rural Commerce",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.hesa.co/",
+    "linkedin_url": "https://www.linkedin.com/company/hesa-technologies-pvt-ltd/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Banyan Nation",
+    "industry": "Recycling",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.banyannation.com/",
+    "linkedin_url": "https://www.linkedin.com/company/banyan-nation/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "FINDERNEST SOFTWARE SERVICES PVT LTD",
+    "industry": "Recruitment Software",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.findernest.com/",
+    "linkedin_url": "https://www.linkedin.com/company/findernest/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Onelement Energy Private Limited",
+    "industry": "Clean Energy",
+    "location": "Hyderabad, India",
+    "careers_url": "https://onelement.in/",
+    "linkedin_url": "NA"
+  },
+  {
+    "course_id": 4,
+    "company_name": "docNmeds",
+    "industry": "Healthcare Ecosystem",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.docnmeds.com/",
+    "linkedin_url": "https://www.linkedin.com/company/docnmeds/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "COMETLABS",
+    "industry": "Developer Tools",
+    "location": "Hyderabad, India",
+    "careers_url": "https://cometlabs.in/",
+    "linkedin_url": "https://www.linkedin.com/company/cometlabs/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "clap-serv",
+    "industry": "Service Platform",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.clap-serv.com/",
+    "linkedin_url": "https://www.linkedin.com/company/clap-serv/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Harvested Robotics",
+    "industry": "Agri-Tech",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.harvestedlabs.com/",
+    "linkedin_url": "https://www.linkedin.com/company/harvested-robotics/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Janaspandana Software Solutions",
+    "industry": "Product Consulting",
+    "location": "Hyderabad, India",
+    "careers_url": "https://janaspandana.in/",
+    "linkedin_url": "https://www.linkedin.com/company/janaspandana-software-solutions/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Banka BioLoo Limited",
+    "industry": "Sanitation Solutions",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.bankabio.com/",
+    "linkedin_url": "https://www.linkedin.com/company/banka-bio/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Algohire Technologies Private Limited",
+    "industry": "AI Recruitment",
+    "location": "Hyderabad, India",
+    "careers_url": "https://algohire.ai/",
+    "linkedin_url": "https://www.linkedin.com/company/algohire/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "ChargeKart Private Limited",
+    "industry": "Autonomous Charging",
+    "location": "Hyderabad, India",
+    "careers_url": "http://www.chargekart.co.in/",
+    "linkedin_url": "https://www.linkedin.com/company/chargekart-private-limited/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "BirthTech Innovations Pvt. Ltd",
+    "industry": "Medtech",
+    "location": "Hyderabad, India",
+    "careers_url": "https://thebirthtech.com/",
+    "linkedin_url": "https://www.linkedin.com/company/thebirthtech/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Aerobiosys Innovations Private Limited",
+    "industry": "Medtech",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.aerobiosys.com/",
+    "linkedin_url": "https://www.linkedin.com/company/aerobiosys/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "DreamVu",
+    "industry": "Imaging Optics",
+    "location": "Hyderabad, India",
+    "careers_url": "http://dreamvu.com/",
+    "linkedin_url": "https://www.linkedin.com/company/dreamvu/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "AppVirality Inc",
+    "industry": "Mobile Growth Toolkit",
+    "location": "Hyderabad, India",
+    "careers_url": "http://appvirality.com/",
+    "linkedin_url": "https://www.linkedin.com/company/app-virality/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "ecoverve technologies",
+    "industry": "Electric",
+    "location": "Hyderabad, India",
+    "careers_url": "https://hyprelectric.in/",
+    "linkedin_url": "https://www.linkedin.com/company/hyprelectric-in/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Acorn Globus",
+    "industry": "Software Development",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.acornglobus.com/",
+    "linkedin_url": "https://www.linkedin.com/company/acornglobus/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Varun Digital Media",
+    "industry": "Digital Marketing",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.varundigitalmedia.com/",
+    "linkedin_url": "https://www.linkedin.com/company/varun-digital-media/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "ATAI labs private limited",
+    "industry": "AI Solutions",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.atai.ai/",
+    "linkedin_url": "https://www.linkedin.com/company/ataiinc/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Only Electriq Solutions Pvt Ltd",
+    "industry": "EV Mobility Solutions",
+    "location": "Hyderabad, India",
+    "careers_url": "https://electriq.co.in/",
+    "linkedin_url": "https://www.linkedin.com/company/only-electriq-solutions-private-limited"
+  },
+  {
+    "course_id": 4,
+    "company_name": "9M Fertility",
+    "industry": "Fertility Services",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.9mfertility.com/",
+    "linkedin_url": "NA"
+  },
+  {
+    "course_id": 4,
+    "company_name": "ToggleNow Software Solutions Pvt Ltd.",
+    "industry": "SAP Services",
+    "location": "Hyderabad, India",
+    "careers_url": "https://www.togglenow.com/solutions/verity",
+    "linkedin_url": "https://www.linkedin.com/company/togglenow/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Flipkart",
+    "industry": "E-commerce",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.flipkartcareers.com/#!/",
+    "linkedin_url": "https://www.linkedin.com/company/flipkart/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Paytm",
+    "industry": "Fintech",
+    "location": "Noida, Uttar Pradesh",
+    "careers_url": "https://paytm.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/paytm/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Ola",
+    "industry": "Transportation",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.olacabs.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/olacabs-com/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Zomato",
+    "industry": "Food Tech",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://www.zomato.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/zomato/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Udaan",
+    "industry": "B2B E-commerce",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.dev.udaan.com/",
+    "linkedin_url": "https://www.linkedin.com/company/udaan/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "BYJU'S",
+    "industry": "EdTech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://byjus.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/byjus/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Razorpay",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://razorpay.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/razorpay/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Swiggy",
+    "industry": "Food Delivery",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.swiggy.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/swiggy/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "PhonePe",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.phonepe.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/phonepe-internet/jobs/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Sharechat",
+    "industry": "Social Media",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://sharechat.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/sharechat/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Meesho",
+    "industry": "E-commerce",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.meesho.com",
+    "linkedin_url": "https://www.linkedin.com/company/meesho/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Groww",
+    "industry": "Investment",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://groww.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/groww/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Cars24",
+    "industry": "Automotive",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://www.cars24.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/cars24/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Dunzo",
+    "industry": "Delivery Services",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.dunzo.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/dunzo/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Cult.fit",
+    "industry": "Fitness Tech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://cult.fit/careers",
+    "linkedin_url": "https://www.linkedin.com/company/cultfit/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Unacademy",
+    "industry": "EdTech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://unacademy.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/unacademy/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "BrowserStack",
+    "industry": "Software Testing",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.browserstack.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/browserstack/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Urban Company",
+    "industry": "Home Services",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://careers.urbancompany.com/jobs",
+    "linkedin_url": "https://www.linkedin.com/company/urbancompany/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Mamaearth",
+    "industry": "Consumer Products",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://mamaearth.in/",
+    "linkedin_url": "https://www.linkedin.com/company/mamaearth/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "CRED",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.cred.club/openings",
+    "linkedin_url": "https://www.linkedin.com/company/credapp/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Vedantu",
+    "industry": "EdTech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.vedantu.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/vedantu/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "FirstCry",
+    "industry": "E-commerce",
+    "location": "Pune, Maharashtra",
+    "careers_url": "https://www.firstcry.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/firstcry/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Nykaa",
+    "industry": "Beauty & Cosmetics",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.nykaa.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/nykaa-com/ "
+  },
+  {
+    "course_id": 2,
+    "company_name": "Ola Electric",
+    "industry": "Electric Vehicles",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.olaelectric.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/olaelectric/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Porter",
+    "industry": "Logistics",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://porter.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/porterapp/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "BlackBuck",
+    "industry": "Logistics Tech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.blackbuck.com/",
+    "linkedin_url": "https://www.linkedin.com/company/blackbuck/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Licious",
+    "industry": "Food Tech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.licious.com/",
+    "linkedin_url": "https://www.linkedin.com/company/licious/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Rapido",
+    "industry": "Transportation",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.rapido.bike/Careers",
+    "linkedin_url": "https://www.linkedin.com/company/rapido-bike/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Stellaps",
+    "industry": "Automotive",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.stellaps.com/",
+    "linkedin_url": "https://www.linkedin.com/company/stella-project-solutions/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Gupshup",
+    "industry": "Communication Tech",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.gupshup.io/about/careers",
+    "linkedin_url": "https://www.linkedin.com/company/gupshup/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Pine Labs",
+    "industry": "Fintech",
+    "location": "Noida, Uttar Pradesh",
+    "careers_url": "https://www.pinelabs.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/pinelabs/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "OfBusiness",
+    "industry": "B2B Commerce",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://www.ofbcareers.com/",
+    "linkedin_url": "https://www.linkedin.com/company/ofbusiness/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Moglix",
+    "industry": "B2B E-commerce",
+    "location": "Noida, Uttar Pradesh",
+    "careers_url": "https://www.moglix.com/career",
+    "linkedin_url": "https://www.linkedin.com/company/moglix/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Cleartax",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.clear.in/s/careers",
+    "linkedin_url": "https://www.linkedin.com/company/clearofficial/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Innovaccer",
+    "industry": "Healthcare Tech",
+    "location": "Noida, Uttar Pradesh",
+    "careers_url": "https://www.innovaccer.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/innovaccer/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Grey Orange",
+    "industry": "Robotics",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://www.greyorange.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/greyorange/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Darwinbox",
+    "industry": "HR Tech",
+    "location": "Hyderabad, Telangana",
+    "careers_url": "https://www.darwinbox.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/darwinbox/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Servify",
+    "industry": "Device Care",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.servify.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/servifyhq/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Prodigal",
+    "industry": "AI Tech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.prodigaltech.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/prodigaltech/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Digit Insurance",
+    "industry": "Insurance Tech",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.godigit.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/godigit/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Fareye",
+    "industry": "Logistics Tech",
+    "location": "Noida, Uttar Pradesh",
+    "careers_url": "https://fareye.com/about/careers",
+    "linkedin_url": "https://www.linkedin.com/company/fareye/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Druva",
+    "industry": "Cloud Data Management",
+    "location": "Pune, Maharashtra",
+    "careers_url": "https://www.druva.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/druva/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Tracxn",
+    "industry": "Data Analytics",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.tracxn.com/jobs/Careers",
+    "linkedin_url": "https://www.linkedin.com/company/tracxn/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Capillary Technologies",
+    "industry": "Retail Tech",
+    "location": "Singapore/Bangalore",
+    "careers_url": "https://www.capillarytech.com/about-us/#ac-blue-bg",
+    "linkedin_url": "https://www.linkedin.com/company/capillary-technologies/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "WebEngage",
+    "industry": "Marketing Tech",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://webengage.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/webengage/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "MoEngage",
+    "industry": "Marketing Tech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.moengage.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/moengage/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "SigTuple",
+    "industry": "Healthcare AI",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://sigtuple.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/sigtuple/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Playerzpot",
+    "industry": "Gaming",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://playerzpot.com/career-with-us",
+    "linkedin_url": "https://www.linkedin.com/company/playerzpot-media-pvt-ltd/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Ather Energy",
+    "industry": "Electric Vehicles",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.atherenergy.com/",
+    "linkedin_url": "https://www.linkedin.com/company/ather-energy/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Cashfree",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.cashfree.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/cashfree/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Delhivery",
+    "industry": "Logistics",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://www.delhivery.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/delhivery/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Pristyn Care",
+    "industry": "Healthcare",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://www.pristyncare.com/company/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/pristyncare/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Livspace",
+    "industry": "Home Services",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.livspace.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/livspace/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Shadowfax",
+    "industry": "Logistics",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://shadowfax.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/shadowfax/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Country Delight",
+    "industry": "Food Tech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.countrydelight.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/countrydelight/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Rippling",
+    "industry": "HR Tech",
+    "location": "San Francisco/Bangalore",
+    "careers_url": "https://www.rippling.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/rippling/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Hasura",
+    "industry": "Developer Tools",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://hasura.io/careers",
+    "linkedin_url": "https://www.linkedin.com/company/hasura/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Appsmith",
+    "industry": "Developer Tools",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.appsmith.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/appsmith/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Instawork",
+    "industry": "Workforce Platform",
+    "location": "San Francisco/Bangalore",
+    "careers_url": "https://www.instawork.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/instawork/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Signzy",
+    "industry": "Fintech",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.signzy.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/teamsignzy/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "GoKwik",
+    "industry": "E-commerce",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.gokwik.co/careers",
+    "linkedin_url": "https://www.linkedin.com/company/gokwik/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Pepper Content",
+    "industry": "Content Tech",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.peppercontent.io/careers",
+    "linkedin_url": "https://www.linkedin.com/company/peppercontent/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Zerodha",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.zerodha.com/",
+    "linkedin_url": "https://www.linkedin.com/company/zerodha/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Chargebee",
+    "industry": "SaaS",
+    "location": "Chennai, Tamil Nadu",
+    "careers_url": "https://www.chargebee.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/chargebee/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Freshworks",
+    "industry": "SaaS",
+    "location": "Chennai, Tamil Nadu",
+    "careers_url": "https://www.freshworks.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/freshworks/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Postman",
+    "industry": "Developer Tools",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.postman.com/company/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/postman-platform/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Zeeve",
+    "industry": "Blockchain",
+    "location": "Noida, Uttar Pradesh",
+    "careers_url": "https://www.zeeve.io/career-at-zeeve/",
+    "linkedin_url": "https://www.linkedin.com/company/zeeve/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Blowhorn",
+    "industry": "Logistics",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://blowhorn.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/blowhorn/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "CoinDCX",
+    "industry": "Crypto",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://careers.coindcx.com/",
+    "linkedin_url": "https://www.linkedin.com/company/coindcx/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Uniphore",
+    "industry": "AI Tech",
+    "location": "Chennai, Tamil Nadu",
+    "careers_url": "https://www.uniphore.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/uniphore/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Jupiter",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://jupiter.money/careers",
+    "linkedin_url": "https://www.linkedin.com/company/jupiter-money/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "1mg",
+    "industry": "Healthcare",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://www.1mg.com/jobs",
+    "linkedin_url": "https://www.linkedin.com/company/1mg/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "PlaySimple",
+    "industry": "Gaming",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://careers.playsimple.in/jobs/Careers",
+    "linkedin_url": "https://www.linkedin.com/company/playsimple-games/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Winzo",
+    "industry": "Gaming",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.winzogames.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/winzogames/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Open",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://open.money/career",
+    "linkedin_url": "https://www.linkedin.com/company/bankwithopen/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Spinny",
+    "industry": "Automotive",
+    "location": "Gurgaon, Haryana",
+    "careers_url": "https://www.spinny.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/spinny/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "RazorPay",
+    "industry": "Fintech",
+    "location": "Bangalore, Karnataka",
+    "careers_url": "https://razorpay.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/razorpay/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Grip",
+    "industry": "Investment",
+    "location": "Mumbai, Maharashtra",
+    "careers_url": "https://www.gripinvest.in/",
+    "linkedin_url": "https://www.linkedin.com/company/gripinvest/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Rebel Foods",
+    "industry": "Food & Beverage",
+    "location": "Mumbai, Maharashtra, India",
+    "careers_url": "https://www.rebelfoods.com/join-our-team",
+    "linkedin_url": "https://www.linkedin.com/company/rebel-foods/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "BigBasket",
+    "industry": "E-commerce",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://www.bigbasket.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/bigbasket-com/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Policybazaar",
+    "industry": "Insurance",
+    "location": "Gurugram, Haryana, India",
+    "careers_url": "https://www.policybazaar.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/policybazaar/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "EaseMyTrip",
+    "industry": "Travel & Tourism",
+    "location": "New Delhi, Delhi, India",
+    "careers_url": "https://www.easemytrip.com/career.html",
+    "linkedin_url": "https://www.linkedin.com/company/easemytrip-com/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "MakeMyTrip",
+    "industry": "Travel & Tourism",
+    "location": "Gurugram, Haryana, India",
+    "careers_url": "https://careers.makemytrip.com/",
+    "linkedin_url": "https://www.linkedin.com/company/makemytrip.com/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Urban Ladder",
+    "industry": "E-commerce",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://www.urbanladder.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/urban-ladder/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Lenskart",
+    "industry": "E-commerce",
+    "location": "Faridabad, Haryana, India",
+    "careers_url": "https://careers.lenskart.com/",
+    "linkedin_url": "https://www.linkedin.com/company/lenskart-com/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "BlueStone",
+    "industry": "E-commerce",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://app1261.workline.hr/Cportal/GeneralOpening.aspx",
+    "linkedin_url": "https://www.linkedin.com/company/bluestone-com/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "CarDekho",
+    "industry": "Automotive",
+    "location": "Jaipur, Rajasthan, India",
+    "careers_url": "https://careers.cardekho.com/",
+    "linkedin_url": "https://www.linkedin.com/company/cardekho/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "HealthifyMe",
+    "industry": "Health & Wellness",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://www.healthifyme.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/healthifyme/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Wakefit",
+    "industry": "E-commerce",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://wakefit.darwinbox.in/ms/candidate/careers",
+    "linkedin_url": "https://www.linkedin.com/company/wakefitco/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "NoBroker",
+    "industry": "Real Estate",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://www.nobroker.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/nobroker-in/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Rivigo",
+    "industry": "Logistics",
+    "location": "Gurugram, Haryana, India",
+    "careers_url": "https://www.rivigo.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/rivigo/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Cogoport",
+    "industry": "Logistics",
+    "location": "Mumbai, Maharashtra, India",
+    "careers_url": "https://www.cogoport.com/en-IN/company/careers",
+    "linkedin_url": "https://www.linkedin.com/company/cogoport/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Zolve",
+    "industry": "Fintech",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://zolve.freshteam.com/jobs",
+    "linkedin_url": "https://www.linkedin.com/company/zolve/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "CoinSwitch Kuber",
+    "industry": "Fintech",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://recruiterflow.com/coinswitch/jobs",
+    "linkedin_url": "https://www.linkedin.com/company/coinswitch/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "WazirX",
+    "industry": "Fintech",
+    "location": "Mumbai, Maharashtra, India",
+    "careers_url": "https://wazirx.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/wazirx/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Truecaller",
+    "industry": "Tech",
+    "location": "Stockholm, Sweden (India Office)",
+    "careers_url": "https://www.truecaller.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/truecaller/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "MyGate",
+    "industry": "Security & Tech",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://mygate.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/company/mygatecom/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Turtlemint",
+    "industry": "Insurance",
+    "location": "Mumbai, Maharashtra, India",
+    "careers_url": "https://careers.turtlemint.com/jobs",
+    "linkedin_url": "https://www.linkedin.com/company/turtlemint/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "OKCredit",
+    "industry": "Fintech",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://okcredit.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/okcredit/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Smallcase",
+    "industry": "Fintech",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://smallcase.darwinbox.in/ms/candidate/careers",
+    "linkedin_url": "https://www.linkedin.com/company/smallcase/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "NestAway",
+    "industry": "Real Estate",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://www.nestaway.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/nestaway-technologies-pvt-ltd/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Jumbotail",
+    "industry": "E-commerce",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://www.jumbotail.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/jumbotail/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "WayCool",
+    "industry": "Agri-tech",
+    "location": "Chennai, Tamil Nadu, India",
+    "careers_url": "https://waycool.in/work-with-us/career",
+    "linkedin_url": "https://www.linkedin.com/company/waycoolfoods/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "DeHaat",
+    "industry": "Agri-tech",
+    "location": "Patna, Bihar, India",
+    "careers_url": "https://agrevolution.in/careers",
+    "linkedin_url": "https://www.linkedin.com/company/dehaat/"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Stanza Living",
+    "industry": "Real Estate",
+    "location": "New Delhi, Delhi, India",
+    "careers_url": "https://www.stanzaliving.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/stanzaliving/"
+  },
+  {
+    "course_id": 5,
+    "company_name": "Yubi",
+    "careers_url": "https://www.go-yubi.com",
+    "linkedin_url": "https://www.linkedin.com/company/go-yubi"
+  },
+  {
+    "course_id": 3,
+    "company_name": "Adani Power",
+    "industry": "Power Generation",
+    "location": "Ahmedabad, Gujarat, India",
+    "linkedin_url": "https://www.linkedin.com/company/adani-power-limited/"
+  },
+  {
+    "course_id": 1,
+    "company_name": "RocSearch India Pvt Ltd",
+    "location": "A-16, Sector 16,\nNoida, UP - 201301",
+    "careers_url": "https://www.rocsearch.com/",
+    "linkedin_url": "https://www.linkedin.com/company/rocsearch/"
+  },
+  {
+    "course_id": 4,
+    "company_name": "Good Health Company",
+    "industry": "Healthcare",
+    "location": "Hyderabad, India",
+    "careers_url": "https://ghc.health/",
+    "linkedin_url": "NA"
+  },
+  {
+    "course_id": 2,
+    "company_name": "Plum Benefits",
+    "industry": "HR Tech",
+    "location": "Bengaluru, Karnataka, India",
+    "careers_url": "https://www.plumhq.com/careers",
+    "linkedin_url": "https://www.linkedin.com/company/plumhq/"
+  }
+]

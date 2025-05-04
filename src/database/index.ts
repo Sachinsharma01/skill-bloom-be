@@ -15,6 +15,7 @@ import featuredModel from './models/featured';
 import courseModel from './models/course';
 import userCourseMappingModel from './models/userCourseMapping';
 import ordersModel from './models/orders';
+import resourceDataModel from './models/resourceData';
 const sequelize = new Sequelize.Sequelize(
     DB_NAME as string,
     DB_USERNAME as string,
@@ -51,6 +52,7 @@ export const DB = {
     Courses: courseModel(sequelize),
     UserCourseMapping: userCourseMappingModel(sequelize),
     Orders: ordersModel(sequelize),
+    ResourceData: resourceDataModel(sequelize),
     sequelize, // connection instance (RAW queries)
     Sequelize, // library
 };
@@ -59,3 +61,4 @@ export const DB = {
 DB.Featured.associate(DB);
 DB.UserCourseMapping.associate(DB);
 DB.Orders.associate(DB);
+DB.ResourceData.associate(DB);
