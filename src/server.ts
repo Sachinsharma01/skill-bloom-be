@@ -7,6 +7,8 @@ import { PORT } from './config';
 import { errorHandler } from './utils/error-handler';
 import { swaggerSpec, swaggerUi } from './utils/swagger';
 import scrapper from './utils/scrapper';
+import connectDB from './mongo/db';
+
 const appServer = express();
 const port = PORT;
 
@@ -57,7 +59,11 @@ appServer.all('*', (req, res) => {
 DB.sequelize
     .authenticate()
     .then(() => {
-        logger.info('Database connected successfully!');
+        connectDB();
+        logger.info('MongoDB connected successfully!');
+    })
+    .then(() => {
+        logger.info('SQL Database connected successfully!');
         appServer.listen(port, () => {
             logger.info(`Server is running on http://localhost:${port}`);
         });

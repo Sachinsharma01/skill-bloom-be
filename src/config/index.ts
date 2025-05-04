@@ -22,4 +22,5 @@ export const {
     DB_DIALECT,
     RAZORPAY_KEY_ID,
     RAZORPAY_KEY_SECRET,
+    MONGO_URI
 } = process.env;

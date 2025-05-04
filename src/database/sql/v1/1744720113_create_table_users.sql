@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS `users` (
     `profile_image` VARCHAR(255) NULL DEFAULT NULL,
     `profession` VARCHAR(255) NOT NULL DEFAULT 'student',
     `country` VARCHAR(255) NOT NULL DEFAULT 'India',
+    `portfolio_id` VARCHAR(255) NULL DEFAULT NULL,
     `state` VARCHAR(255) NOT NULL,
     `city` VARCHAR(255) NOT NULL,
     `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,

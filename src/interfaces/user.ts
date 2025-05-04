@@ -12,4 +12,5 @@ export interface User {
     country: string | undefined;
     state: string | undefined;
     mobile_number: string;
+    portfolio_id: string | undefined;
 }

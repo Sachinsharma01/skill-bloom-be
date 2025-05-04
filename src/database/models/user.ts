@@ -24,6 +24,7 @@ export class UserModel
     public country!: string;
     public state!: string;
     public mobile_number!: string;
+    public portfolio_id!: string;
 
     public readonly createdAt!: Date;
     public readonly updatedAt!: Date;
@@ -78,6 +79,10 @@ export default function (sequelize: Sequelize): typeof UserModel {
             mobile_number: {
                 type: DataTypes.STRING,
                 allowNull: false
+            },
+            portfolio_id: {
+                type: DataTypes.STRING,
+                allowNull: true,
             },
             created_at: DataTypes.DATE,
             updated_at: DataTypes.DATE,
