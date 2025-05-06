@@ -5,6 +5,9 @@ import PortfolioInteractor from 'mongo/interactors/portfolioInteractor';
 import SuccessResponse from 'utils/apiResponse';
 import { CustomError } from 'utils/custom-error';
 import logger from 'utils/logger';
+import { createPortfolioSchema } from './validator';
+import userInteractor from 'interactors/userInteractor';
+
 class PortfolioController {
 
     async getPortfolio(req: Request, res: Response, next: NextFunction): Promise<any> {
@@ -23,28 +26,31 @@ class PortfolioController {
     async createPortfolio(req: IRequest, res: Response, next: NextFunction): Promise<any> {
         try {
             logger.info('Portfolio creation started with payload', req.body);
-            const portfolioData: any = req.body;
-            const userId = portfolioData.userId;
 
-            if (!portfolioData.personal.name || !portfolioData.personal.email || !portfolioData.personal.about) {
-                return res.status(400).json({ message: 'Missing required personal information' });
-              }
-              
-              if (!portfolioData.skills || portfolioData.skills.length === 0) {
-                throw new CustomError('At least one skill is required');
-              }
-              
-              let portfolioExists = await PortfolioInteractor.getPortfolioDetailsByUserId(userId);
-          
-              if (portfolioExists) {
-                portfolioExists = await PortfolioInteractor.updatePortfolioDetails(
-                  userId,
-                  portfolioData
+            const { user_id, formData } = req.body;
+
+            // Check if portfolio already exists for this user
+            let portfolioExists: any = await PortfolioInteractor.getPortfolioDetailsByUserId(user_id);
+
+            if (portfolioExists) {
+                // Update existing portfolio
+                await PortfolioInteractor.updatePortfolioDetails(
+                    user_id,
+                    formData
                 );
+                return SuccessResponse(res, portfolioExists, 'Portfolio updated successfully');
             } else {
-                portfolioExists = await PortfolioInteractor.createPortfolio(portfolioData);
+                logger.info('Portfolio does not exist for this user, creating new portfolio with payload: ', { data: formData });
+                // Create new portfolio
+                portfolioExists = await PortfolioInteractor.createPortfolio({
+                    ...formData,
+                    user_id
+                });
+                await userInteractor.updateUser(user_id, {
+                    portfolio_id: portfolioExists._id
+                })
+                return SuccessResponse(res, portfolioExists, 'Portfolio created successfully');
             }
-            return SuccessResponse(res, portfolioExists, 'Portfolio details created successfully');
         } catch (error) {
             next(error);
         }

@@ -11,10 +11,12 @@ const logFormatter = winston.format.printf(info => {
 
     const symbols = Object.getOwnPropertySymbols(info);
     if (info[symbols[0]] !== 'error') {
-        return `[${timestamp}] - ${level}: ${message}`;
+        return `[${timestamp}] - ${level}: ${message} ${info.data ? JSON.stringify(info.data, null, 2) : ''}`;
     }
 
-    return `[${timestamp}] ${level}: ${errorMessage}`;
+    return `[${timestamp}] ${level}: ${errorMessage} ${
+        info instanceof Error ? info.stack : ''
+    }`;
 });
 
 // Daily Rotate File for debug logs
@@ -43,8 +45,8 @@ const logger = winston.createLogger({
     level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
     format: winston.format.combine(
         winston.format.timestamp(),
-        winston.format.printf(({ timestamp, level, message }) => {
-            return `[${timestamp}] ${level.toUpperCase()}: ${message}`;
+        winston.format.printf(({ timestamp, level, message, data }) => {
+            return `[${timestamp}] ${level.toUpperCase()}: ${message} ${JSON.stringify(data, null, 2)}`;
         }),
     ),
     transports: [consoleTransport, debugTransport, errorTransport],

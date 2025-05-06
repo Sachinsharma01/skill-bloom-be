@@ -18,13 +18,11 @@ class PortfolioInteractor {
     }
 
     getPortfolioDetailsByUserId(userId: string) {
-        return this.portfolio.findOne({ userId });
+        return this.portfolio.findOne({ user_id: userId });
     }
 
     updatePortfolioDetails(userId: string, updateData: Partial<IPortfolio>) {
-        return this.portfolio.findOneAndUpdate({ userId }, updateData, {
-            new: true,
-        });
+        return this.portfolio.findOneAndUpdate({ userId }, updateData);
     }
 }
 
