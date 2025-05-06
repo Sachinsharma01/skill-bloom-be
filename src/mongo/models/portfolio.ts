@@ -173,6 +173,7 @@ const PortfolioSchema = new Schema<IPortfolio>(
     },
     {
         timestamps: true,
+        collection: 'portfolio',
     },
 );
 
