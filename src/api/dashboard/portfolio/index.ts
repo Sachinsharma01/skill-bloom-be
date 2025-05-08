@@ -16,7 +16,7 @@ router.post(
 );
 
 router.post(
-    '/:userId',
+    '/:userId/grant_access',
     authMiddleware,
     validateUser,
     PortfolioController.grantPortfolioAccess,

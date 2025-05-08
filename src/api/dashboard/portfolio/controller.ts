@@ -60,7 +60,8 @@ class PortfolioController {
         try {
             const { user_id } = req.params;
             await userInteractor.grantPortfolioAccess(parseInt(user_id));
-            return SuccessResponse(res, null, 'Portfolio access granted successfully');
+            const user = await userInteractor.findUserById(parseInt(user_id));
+            return SuccessResponse(res, user, 'Portfolio access granted successfully');
         } catch (error) {
             next(error);
         }
