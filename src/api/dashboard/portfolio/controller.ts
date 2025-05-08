@@ -58,9 +58,9 @@ class PortfolioController {
 
     async grantPortfolioAccess(req: IRequest, res: Response, next: NextFunction): Promise<any> {
         try {
-            const { user_id } = req.params;
-            await userInteractor.grantPortfolioAccess(parseInt(user_id));
-            const user = await userInteractor.findUserById(parseInt(user_id));
+            const { userId } = req.params;
+            await userInteractor.grantPortfolioAccess(parseInt(userId));
+            const user = await userInteractor.findUserById(parseInt(userId));
             return SuccessResponse(res, user, 'Portfolio access granted successfully');
         } catch (error) {
             next(error);
