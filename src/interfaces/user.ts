@@ -13,4 +13,5 @@ export interface User {
     state: string | undefined;
     mobile_number: string;
     portfolio_id: string | undefined;
+    has_portfolio_access: boolean;
 }

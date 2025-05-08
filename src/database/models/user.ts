@@ -25,6 +25,7 @@ export class UserModel
     public state!: string;
     public mobile_number!: string;
     public portfolio_id!: string;
+    public has_portfolio_access!: boolean;
 
     public readonly createdAt!: Date;
     public readonly updatedAt!: Date;
@@ -83,6 +84,11 @@ export default function (sequelize: Sequelize): typeof UserModel {
             portfolio_id: {
                 type: DataTypes.STRING,
                 allowNull: true,
+            },
+            has_portfolio_access: {
+                type: DataTypes.BOOLEAN,
+                allowNull: false,
+                defaultValue: false,
             },
             created_at: DataTypes.DATE,
             updated_at: DataTypes.DATE,

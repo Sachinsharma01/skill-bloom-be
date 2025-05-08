@@ -7,7 +7,7 @@ import { CustomError } from 'utils/custom-error';
 import logger from 'utils/logger';
 import { createPortfolioSchema } from './validator';
 import userInteractor from 'interactors/userInteractor';
-
+import constants from 'utils/constants';
 class PortfolioController {
 
     async getPortfolio(req: Request, res: Response, next: NextFunction): Promise<any> {
@@ -51,6 +51,26 @@ class PortfolioController {
                 })
                 return SuccessResponse(res, portfolioExists, 'Portfolio created successfully');
             }
+        } catch (error) {
+            next(error);
+        }
+    }
+
+    async grantPortfolioAccess(req: IRequest, res: Response, next: NextFunction): Promise<any> {
+        try {
+            const { user_id } = req.params;
+            await userInteractor.grantPortfolioAccess(parseInt(user_id));
+            return SuccessResponse(res, null, 'Portfolio access granted successfully');
+        } catch (error) {
+            next(error);
+        }
+    }
+
+    async createPortfolioOrder(req: IRequest, res: Response, next: NextFunction): Promise<any> {
+        try {
+            const { user_id } = req.params;
+            const order_id = constants.PORTFOLIO_ORDER_ID;
+            return SuccessResponse(res, { order_id }, 'Portfolio order created successfully');
         } catch (error) {
             next(error);
         }

@@ -22,6 +22,10 @@ const userInteractor = {
         return DB.Users.update(profileDetails, { where: { id: userId } });
     },
 
+    grantPortfolioAccess(userId: number) {
+        return DB.Users.update({ has_portfolio_access: true }, { where: { id: userId } });
+    }
+
 }
 
 
