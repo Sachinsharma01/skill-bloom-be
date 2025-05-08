@@ -15,7 +15,6 @@ router.get(
 
 router.use(
     '/portfolio',
-    authMiddleware,
     portfolioRouter,
 );
 
