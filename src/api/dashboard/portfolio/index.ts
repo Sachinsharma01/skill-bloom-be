@@ -6,7 +6,7 @@ import { authMiddleware } from 'middlewares/auth';
 import { validateUser } from 'middlewares';
 const router: express.Router = express.Router();
 
-router.get('/:portfolioId', authMiddleware, PortfolioController.getPortfolio);
+router.get('/:portfolioId', PortfolioController.getPortfolio);
 
 router.post(
     '/',
