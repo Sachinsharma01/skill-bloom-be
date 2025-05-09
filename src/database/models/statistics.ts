@@ -10,6 +10,7 @@ export class StatisticsModel extends Model<Statistics, StatisticsCreationAttribu
     total_categories!: number;
     total_states!: number;
     total_countries!: number;
+    total_portfolios!: number;
 }
 
 export default function (sequelize: Sequelize): typeof StatisticsModel {
@@ -39,6 +40,11 @@ export default function (sequelize: Sequelize): typeof StatisticsModel {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
+        total_portfolios: {
+            type: DataTypes.INTEGER, 
+            allowNull: false,
+            defaultValue: 0,
+        }
     }, {
         tableName: 'statistics',
         sequelize,

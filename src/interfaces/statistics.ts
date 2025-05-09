@@ -5,4 +5,5 @@ export interface Statistics {
     total_categories: number;
     total_states: number;
     total_countries: number;
+    total_portfolios: number;
 }
