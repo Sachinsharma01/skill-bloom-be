@@ -58,7 +58,7 @@ interface IProject {
     id: string;
     name: string;
     description: string;
-    status: 'active' | 'completed' | 'inactive';
+    status: 'active' | 'completed' | 'ongoing';
     technologies: string[];
     link?: string;
 }
@@ -97,7 +97,7 @@ const PortfolioSchema = new Schema<IPortfolio>(
             email: { type: String },
             phoneNumber: { type: String },
             linkedinProfile: { type: String },
-            githubProfile: { type: String },
+            githubProfile: { type: String, required: false },
             resumeUrl: { type: String },
             hideEmail: { type: Boolean, default: false },
             hidePhone: { type: Boolean, default: false },
@@ -151,7 +151,7 @@ const PortfolioSchema = new Schema<IPortfolio>(
                 status: {
                     type: String,
                     required: true,
-                    enum: ['active', 'completed', 'inactive'],
+                    enum: ['active', 'completed', 'ongoing'],
                 },
                 technologies: [{ type: String }],
                 link: { type: String },

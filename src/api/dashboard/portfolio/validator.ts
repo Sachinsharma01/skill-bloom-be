@@ -28,7 +28,7 @@ const basicInfoSchema = Joi.object({
     linkedinProfile: Joi.string().optional().messages({
         'string.base': 'LinkedIn profile must be a string',
     }),
-    githubProfile: Joi.string().optional().messages({
+    githubProfile: Joi.string().optional().min(0).messages({
         'string.base': 'GitHub profile must be a string',
     }),
     resumeUrl: Joi.string().optional().messages({
@@ -37,13 +37,13 @@ const basicInfoSchema = Joi.object({
     hideEmail: Joi.boolean().default(false),
     hidePhone: Joi.boolean().default(false),
     hideResume: Joi.boolean().default(false),
-    whatYouDo: Joi.string().optional().messages({
+    whatYouDo: Joi.string().optional().min(0).messages({
         'string.base': 'What you do must be a string',
     }),
     whatYouDoHeadline: Joi.string().optional().messages({
         'string.base': 'What you do headline must be a string',
     }),
-    aboutYourself: Joi.string().optional().messages({
+    aboutYourself: Joi.string().optional().min(0).messages({
         'string.base': 'About yourself must be a string',
     }),
 });
@@ -143,11 +143,11 @@ const projectSchema = Joi.object({
         'any.required': 'Project description is required',
     }),
     status: Joi.string()
-        .valid('active', 'completed', 'inactive')
+        .valid('active', 'completed', 'ongoing')
         .required()
         .messages({
             'string.base': 'Status must be a string',
-            'any.only': 'Status must be one of: active, completed, inactive',
+            'any.only': 'Status must be one of: active, completed, ongoing',
             'any.required': 'Status is required',
         }),
     technologies: Joi.array().items(Joi.string()).optional(),
@@ -177,7 +177,7 @@ const certificateSchema = Joi.object({
 
 export const createPortfolioSchema = Joi.object({
     formData: Joi.object({
-        basicInfo: basicInfoSchema.required(),
+        basicInfo: basicInfoSchema.optional(),
         education: Joi.array().items(educationSchema).optional(),
         skills: Joi.array().items(skillSchema).optional(),
         experiences: Joi.array().items(experienceSchema).optional(),

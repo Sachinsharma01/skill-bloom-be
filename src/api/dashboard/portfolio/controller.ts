@@ -1,11 +1,9 @@
 import { NextFunction, Request, Response } from 'express';
 import { IRequest } from 'interfaces/common';
-import { IPortfolio } from 'mongo/models/portfolio';
 import PortfolioInteractor from 'mongo/interactors/portfolioInteractor';
 import SuccessResponse from 'utils/apiResponse';
 import { CustomError } from 'utils/custom-error';
 import logger from 'utils/logger';
-import { createPortfolioSchema } from './validator';
 import userInteractor from 'interactors/userInteractor';
 import constants from 'utils/constants';
 class PortfolioController {
