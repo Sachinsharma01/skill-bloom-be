@@ -22,7 +22,7 @@ class PortfolioInteractor {
     }
 
     updatePortfolioDetails(userId: string, updateData: Partial<IPortfolio>) {
-        return this.portfolio.findOneAndUpdate({ userId }, updateData);
+        return this.portfolio.updateOne({ user_id: userId }, updateData)
     }
 }
 
