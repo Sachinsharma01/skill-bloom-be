@@ -34,3 +34,11 @@ export const updateProfileSchema = Joi.object({
         'string.base': 'profession must be a string',
     }), 
 });
+
+
+export const reviewCourseSchema = Joi.object({
+    rating: Joi.number().required().messages({
+        'number.base': 'rating must be a number',
+        'any.required': 'rating is required',
+    }),
+});

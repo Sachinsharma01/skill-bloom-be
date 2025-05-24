@@ -1,9 +1,9 @@
 import express from 'express';
 import { validateRequest } from 'middlewares/validate-request';
-import { getProfileSchema, updateProfileSchema } from './validator';
+import { getProfileSchema, reviewCourseSchema, updateProfileSchema } from './validator';
 import { authMiddleware } from 'middlewares/auth';
 import { userController } from './controller';
-import { validateUser } from 'middlewares';
+import { validateCourse, validateUser } from 'middlewares';
 
 const userRouter = express.Router();
 
@@ -27,5 +27,14 @@ userRouter.get(
     validateUser,
     userController.getEnrolledCourses,
 );
+
+userRouter.post(
+    '/:userId/review_course/:courseId',
+    validateRequest(reviewCourseSchema),
+    authMiddleware,
+    validateUser,
+    validateCourse,
+    userController.reviewCourse,
+)
 
 export default userRouter;

@@ -16,6 +16,8 @@ import courseModel from './models/course';
 import userCourseMappingModel from './models/userCourseMapping';
 import ordersModel from './models/orders';
 import resourceDataModel from './models/resourceData';
+import userCourseRatingModel from './models/userCourseRating';
+
 const sequelize = new Sequelize.Sequelize(
     DB_NAME as string,
     DB_USERNAME as string,
@@ -53,6 +55,7 @@ export const DB = {
     UserCourseMapping: userCourseMappingModel(sequelize),
     Orders: ordersModel(sequelize),
     ResourceData: resourceDataModel(sequelize),
+    UserCourseRating: userCourseRatingModel(sequelize),
     sequelize, // connection instance (RAW queries)
     Sequelize, // library
 };
