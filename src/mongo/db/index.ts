@@ -6,7 +6,7 @@ const connectDB = async () => {
     try {
         mongoose.set('debug', true);
         const connection = await mongoose.connect(MONGO_URI as string, {
-            dbName: 'skillbloom-dev'
+            dbName: 'skillbloom-production'
         });
         if (connection.connection.db) {
             logger.info(`Connected to MongoDB database: ${connection.connection.db.databaseName}`);
