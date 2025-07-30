@@ -24,6 +24,10 @@ const userInteractor = {
 
     grantPortfolioAccess(userId: number) {
         return DB.Users.update({ has_portfolio_access: true }, { where: { id: userId } });
+    },
+
+    findUserByPhone(phone: string) {
+        return DB.Users.findAll({ where: { mobile_number: phone } });
     }
 
 }

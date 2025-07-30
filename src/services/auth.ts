@@ -14,6 +14,10 @@ class AuthService {
         if (findUser) {
             throw new CustomError(`Email ${userData.email} already exists`, 409);
         }
+        const userWithPhoneExists = await userInteractor.findUserByPhone(userData.mobile_number);
+        if (userWithPhoneExists) {
+            throw new CustomError(`Phone number ${userData.mobile_number} already exists`, 409);
+        }
 
         const randomId = (Date.now() + Math.floor(Math.random() * 100)).toString(36);
         const username = userData.username ?? `${userData.email.split('@')[0]}-${randomId}`;
