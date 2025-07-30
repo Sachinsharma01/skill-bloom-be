@@ -20,6 +20,7 @@ class AdminController {
                     total_categories,
                     total_states,
                     total_countries,
+                    total_portfolios: 0,
                 },
             );
 
