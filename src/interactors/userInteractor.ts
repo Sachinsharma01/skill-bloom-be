@@ -27,7 +27,7 @@ const userInteractor = {
     },
 
     findUserByPhone(phone: string) {
-        return DB.Users.findAll({ where: { mobile_number: phone } });
+        return DB.Users.findOne({ where: { mobile_number: phone } });
     }
 
 }
