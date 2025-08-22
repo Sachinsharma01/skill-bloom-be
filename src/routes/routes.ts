@@ -5,6 +5,7 @@ import validateRouter from '../routes/validate';
 import publicRouter from '../api/public/routes';
 import orderRouter from '../api/orders';
 import dashboardRouter from '../api/dashboard';
+import paymentRouter from '../api/payment'
 
 const router = express.Router();
 
@@ -14,6 +15,7 @@ router.use('/validate', validateRouter);
 router.use('/public', publicRouter);
 router.use('/orders', orderRouter)
 router.use('/dashboard', dashboardRouter)
+router.use('/payment', paymentRouter)
 
 
 router.get('/health', (req, res) => {
