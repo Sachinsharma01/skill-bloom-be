@@ -26,7 +26,7 @@ router.post('/initiate', async (req, res, next) => {
         );
 
         const merchantOrderId = crypto.randomUUID();
-        const redirectURL = 'http://localhost:3000/redirect';
+        const redirectURL = 'https://skillbloom.in/resources/';
 
         const metaInfo: MetaInfo = MetaInfo.builder()
             .udf1('udf1')
