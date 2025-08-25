@@ -37,7 +37,7 @@ router.post('/initiate', async (req, res, next) => {
             StandardCheckoutPayRequest.builder()
                 .merchantOrderId(merchantOrderId)
                 .redirectUrl(redirectURL)
-                .amount(req.body.amount)
+                .amount(req.body.amount * 100)
                 .metaInfo(metaInfo)
                 .build();
 
