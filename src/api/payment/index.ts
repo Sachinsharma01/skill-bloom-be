@@ -10,9 +10,10 @@ import {
     PHONEPE_CLIENT_ID,
     PHONEPE_CLIENT_SECRET,
     PHONEPE_CLIENT_VERSION,
-    PHONEPE_ENV
+    PHONEPE_ENV,
 } from '../../config';
 import crypto from 'crypto';
+import logger from 'utils/logger';
 
 const router: express.Router = express.Router();
 
@@ -47,6 +48,14 @@ router.post('/initiate', async (req, res, next) => {
     } catch (error) {
         console.error('Payment init failed:', error);
         res.status(500).json({ error: 'Payment initiation failed' });
+    }
+});
+
+router.get('/capture', async (req, res, next) => {
+    try {
+        logger.debug('Webhook called here');
+    } catch (error) {
+        console.error('Payment capture failed:', error);
     }
 });
 
